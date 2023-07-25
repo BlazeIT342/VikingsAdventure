@@ -1,0 +1,449 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8054967024679079114
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 85c88462-35b9-43de-a19b-96a27149604c
+  m_EditorClassIdentifier: 
+  text: Hello, thanks for saving us from bad Soldiers.
+  isPlayerSpeaking: 0
+  children:
+  - 9139e4b5-17b5-4943-9128-77276af1b5e1
+  - 23f6568d-ed6a-452e-b5ac-16a1cfd188c5
+  - 894271cd-faf6-4201-b275-5bfec0bbddd5
+  rect:
+    serializedVersion: 2
+    x: 7
+    y: 177
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-4537065995627354172
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: c9f372b2-97c5-46ff-b8f2-36da604ec3b5
+  m_EditorClassIdentifier: 
+  text: Okay, nice. See this saler?
+  isPlayerSpeaking: 0
+  children:
+  - 5f261208-6419-4be5-8043-94a406d5347f
+  rect:
+    serializedVersion: 2
+    x: 1770
+    y: 102
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-3853230167695503687
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: c109ddbc-d2cb-4c4f-80a7-1df379bbd52e
+  m_EditorClassIdentifier: 
+  text: I don't need your advice. Bye.
+  isPlayerSpeaking: 1
+  children:
+  - d64b5e50-4e58-480f-89b6-02f0362f89f5
+  rect:
+    serializedVersion: 2
+    x: 1552
+    y: 353.99994
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-3772910649184227341
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: fed509b2-eb71-4abf-8a57-eb493c35cfa8
+  m_EditorClassIdentifier: 
+  text: Okay.
+  isPlayerSpeaking: 1
+  children:
+  - c9f372b2-97c5-46ff-b8f2-36da604ec3b5
+  rect:
+    serializedVersion: 2
+    x: 1549
+    y: 205.99998
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-3346479115499715662
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: af44f2fe-b230-46eb-9622-a400874eb06c
+  m_EditorClassIdentifier: 
+  text: Okay, I'm doing it.
+  isPlayerSpeaking: 1
+  children:
+  - c9f372b2-97c5-46ff-b8f2-36da604ec3b5
+  rect:
+    serializedVersion: 2
+    x: 1028
+    y: 215
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-2829186037794123200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: d64b5e50-4e58-480f-89b6-02f0362f89f5
+  m_EditorClassIdentifier: 
+  text: Then they will kill you... Nevermind...
+  isPlayerSpeaking: 0
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 1802
+    y: 353.99994
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-2003646760744152859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 894271cd-faf6-4201-b275-5bfec0bbddd5
+  m_EditorClassIdentifier: 
+  text: Good luck!
+  isPlayerSpeaking: 0
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 2238
+    y: -5
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and:
+    - or:
+      - predicate: HasQuest
+        parameters:
+        - The first purchase
+        negate: 0
+    - or:
+      - predicate: CompletedQuest
+        parameters:
+        - The first purchase
+        negate: 1
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78a4e2c12110cff419d55832d9c35f8e, type: 3}
+  m_Name: The first purchase
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: -8054967024679079114}
+  - {fileID: 1405423605457024611}
+  - {fileID: 5382222376186341026}
+  - {fileID: 5164521303635175691}
+  - {fileID: 942333385730011709}
+  - {fileID: -3346479115499715662}
+  - {fileID: 2230860914084733273}
+  - {fileID: 5789033540178134220}
+  - {fileID: -3772910649184227341}
+  - {fileID: -3853230167695503687}
+  - {fileID: -4537065995627354172}
+  - {fileID: 7070980916106938435}
+  - {fileID: -2003646760744152859}
+  - {fileID: -2829186037794123200}
+  - {fileID: 8974790832996020726}
+  newNodeOffset: {x: 250, y: 0}
+--- !u!114 &942333385730011709
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: e08b80b1-c35d-4eed-babe-09bde72c1411
+  m_EditorClassIdentifier: 
+  text: But you're doing it, I see!
+  isPlayerSpeaking: 0
+  children:
+  - af44f2fe-b230-46eb-9622-a400874eb06c
+  - c2d48750-8638-4acf-8550-c8469b0e2d06
+  rect:
+    serializedVersion: 2
+    x: 757
+    y: 257
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &1405423605457024611
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 9139e4b5-17b5-4943-9128-77276af1b5e1
+  m_EditorClassIdentifier: 
+  text: I see you're going to the castle, right?
+  isPlayerSpeaking: 0
+  children:
+  - 14dcb389-77f7-4b70-9bb0-73126b137133
+  - 9ceb9d34-3d2f-4a06-a383-30591af144b6
+  rect:
+    serializedVersion: 2
+    x: 246
+    y: 177
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and:
+    - or:
+      - predicate: HasQuest
+        parameters:
+        - The first purchase
+        negate: 1
+--- !u!114 &2230860914084733273
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: c2d48750-8638-4acf-8550-c8469b0e2d06
+  m_EditorClassIdentifier: 
+  text: No man, no.
+  isPlayerSpeaking: 1
+  children:
+  - dcc51dad-bbe0-4c68-9c3f-d5650fdbc28f
+  rect:
+    serializedVersion: 2
+    x: 1028
+    y: 333.99997
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &5164521303635175691
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 9ceb9d34-3d2f-4a06-a383-30591af144b6
+  m_EditorClassIdentifier: 
+  text: Umm, no.
+  isPlayerSpeaking: 1
+  children:
+  - e08b80b1-c35d-4eed-babe-09bde72c1411
+  rect:
+    serializedVersion: 2
+    x: 473
+    y: 258
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &5382222376186341026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 14dcb389-77f7-4b70-9bb0-73126b137133
+  m_EditorClassIdentifier: 
+  text: Yes.
+  isPlayerSpeaking: 1
+  children:
+  - c9f372b2-97c5-46ff-b8f2-36da604ec3b5
+  rect:
+    serializedVersion: 2
+    x: 468
+    y: 100
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &5789033540178134220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: dcc51dad-bbe0-4c68-9c3f-d5650fdbc28f
+  m_EditorClassIdentifier: 
+  text: But I want to help you. You can't go on without my advice.
+  isPlayerSpeaking: 0
+  children:
+  - fed509b2-eb71-4abf-8a57-eb493c35cfa8
+  - c109ddbc-d2cb-4c4f-80a7-1df379bbd52e
+  rect:
+    serializedVersion: 2
+    x: 1305
+    y: 280
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &7070980916106938435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 5f261208-6419-4be5-8043-94a406d5347f
+  m_EditorClassIdentifier: 
+  text: You can buy the Fiery Rain from him. Do it, please. Without this rain you
+    can't go on.
+  isPlayerSpeaking: 0
+  children:
+  - 894271cd-faf6-4201-b275-5bfec0bbddd5
+  rect:
+    serializedVersion: 2
+    x: 2003
+    y: 100
+    width: 200
+    height: 100
+  onEnterAction: GiveQuest
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &8974790832996020726
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 23f6568d-ed6a-452e-b5ac-16a1cfd188c5
+  m_EditorClassIdentifier: 
+  text: Place ability in action slot.
+  isPlayerSpeaking: 0
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 246
+    y: 309
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and:
+    - or:
+      - predicate: HasQuest
+        parameters:
+        - The first purchase
+        negate: 0
+    - or:
+      - predicate: CompletedQuest
+        parameters:
+        - The first purchase
+        negate: 0

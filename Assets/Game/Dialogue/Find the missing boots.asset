@@ -1,0 +1,232 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7647778839543287928
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 2eb809f0-bfb6-47d5-83ef-580e3e7dca90
+  m_EditorClassIdentifier: 
+  text: Two days ago the crowd of soldiers has been stalkering me, so I've dropped
+    my boots.
+  isPlayerSpeaking: 0
+  children:
+  - fe3d0495-7a83-457b-a403-b511b7f52c1e
+  rect:
+    serializedVersion: 2
+    x: 263
+    y: 131
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and:
+    - or:
+      - predicate: HasQuest
+        parameters:
+        - Find the missing boots
+        negate: 1
+--- !u!114 &-2593852539689563642
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: f41374eb-ac1b-4c73-a394-f82fbd8cf2d0
+  m_EditorClassIdentifier: 
+  text: Yes, sure.
+  isPlayerSpeaking: 1
+  children:
+  - 5943d40e-086d-4c42-a99c-6b8514ecc401
+  rect:
+    serializedVersion: 2
+    x: 763
+    y: 131
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78a4e2c12110cff419d55832d9c35f8e, type: 3}
+  m_Name: Find the missing boots
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: 8816431317758845648}
+  - {fileID: -7647778839543287928}
+  - {fileID: 6650505362774040459}
+  - {fileID: -2593852539689563642}
+  - {fileID: 7890716227515680633}
+  - {fileID: 6657959567140839603}
+  - {fileID: 2642536407333281860}
+  newNodeOffset: {x: 250, y: 0}
+--- !u!114 &2642536407333281860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 0f2ebffe-e27c-49d5-9d52-ad7292885b63
+  m_EditorClassIdentifier: 
+  text: Yes, you are a tracker!
+  isPlayerSpeaking: 0
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 272
+    y: 260
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and:
+    - or:
+      - predicate: HasQuest
+        parameters:
+        - Find the missing boots
+        negate: 0
+    - or:
+      - predicate: CompletedQuest
+        parameters:
+        - Find the missing boots
+        negate: 0
+--- !u!114 &6650505362774040459
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: fe3d0495-7a83-457b-a403-b511b7f52c1e
+  m_EditorClassIdentifier: 
+  text: Can you search it in the forest? I'll be grateful.
+  isPlayerSpeaking: 0
+  children:
+  - f41374eb-ac1b-4c73-a394-f82fbd8cf2d0
+  rect:
+    serializedVersion: 2
+    x: 513
+    y: 131
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &6657959567140839603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: e396f65a-caba-48cd-a895-b7b79e57cde0
+  m_EditorClassIdentifier: 
+  text: Haa! I'm just kidding! Or not...?
+  isPlayerSpeaking: 0
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 1255
+    y: 14
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and:
+    - or:
+      - predicate: HasQuest
+        parameters:
+        - Find the missing boots
+        negate: 0
+    - or:
+      - predicate: CompletedQuest
+        parameters:
+        - Find the missing boots
+        negate: 1
+--- !u!114 &7890716227515680633
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 5943d40e-086d-4c42-a99c-6b8514ecc401
+  m_EditorClassIdentifier: 
+  text: Thank you! But be careful a few strange soldiers seem to be doing sectarian
+    business there.
+  isPlayerSpeaking: 0
+  children:
+  - e396f65a-caba-48cd-a895-b7b79e57cde0
+  rect:
+    serializedVersion: 2
+    x: 1014
+    y: 131
+    width: 200
+    height: 100
+  onEnterAction: GiveQuest
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &8816431317758845648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 78f9956d-10ed-4ed7-b798-f194ee5f142a
+  m_EditorClassIdentifier: 
+  text: Hello, are you going along the road, yea? I have a quest for you.
+  isPlayerSpeaking: 0
+  children:
+  - 2eb809f0-bfb6-47d5-83ef-580e3e7dca90
+  - e396f65a-caba-48cd-a895-b7b79e57cde0
+  - 0f2ebffe-e27c-49d5-9d52-ad7292885b63
+  rect:
+    serializedVersion: 2
+    x: 13
+    y: 131
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []

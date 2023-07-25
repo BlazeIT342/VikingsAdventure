@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc8101620a5198e4baf0cdce63a1e42e, type: 3}
+  m_Name: Blue Gem Amulet
+  m_EditorClassIdentifier: 
+  itemID: cd0784c2-5e4a-4d19-b03e-a12a71307076
+  displayName: Blue Gem Amulet
+  description: 'Make me shine uncle!
+
+    Damage +20%'
+  icon: {fileID: 21300000, guid: 81d61dfd732ba754bb6a60bda3f17676, type: 3}
+  pickup: {fileID: 7227525995054560384, guid: d5a65ec5f9a267449bb8cea1684b5c0b, type: 3}
+  stackable: 0
+  price: 500
+  category: 1
+  allowedEquipLocation: 1
+  equipCondition:
+    and: []
+  additiveModifiers: []
+  percentageModifiers:
+  - stat: 1
+    value: 20

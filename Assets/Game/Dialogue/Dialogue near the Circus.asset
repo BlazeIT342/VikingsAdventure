@@ -1,0 +1,206 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8025076555769849432
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 77252c8d-ceed-40ba-a788-c119938bbd5d
+  m_EditorClassIdentifier: 
+  text: No, I'm just walking.
+  isPlayerSpeaking: 1
+  children:
+  - 3a32e81c-f8dd-458b-b830-363f9a4de506
+  rect:
+    serializedVersion: 2
+    x: 758
+    y: 157
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-7897317627935505837
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 03828515-8ae7-4a5f-a8a5-89de03c24482
+  m_EditorClassIdentifier: 
+  text: Yo!
+  isPlayerSpeaking: 0
+  children:
+  - af2f1285-d9a9-40b1-948e-d6082956099b
+  rect:
+    serializedVersion: 2
+    x: 14
+    y: 80
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78a4e2c12110cff419d55832d9c35f8e, type: 3}
+  m_Name: Dialogue near the Circus
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: -7897317627935505837}
+  - {fileID: 3025024145082977322}
+  - {fileID: 5711262701303495672}
+  - {fileID: 7501455898350146286}
+  - {fileID: -8025076555769849432}
+  - {fileID: 9071195787027700192}
+  - {fileID: 4788398903687397261}
+  newNodeOffset: {x: 250, y: 0}
+--- !u!114 &3025024145082977322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: af2f1285-d9a9-40b1-948e-d6082956099b
+  m_EditorClassIdentifier: 
+  text: You saved us! Thank you!
+  isPlayerSpeaking: 0
+  children:
+  - 2b759c42-3cb4-485f-b668-a33f67a3ad15
+  rect:
+    serializedVersion: 2
+    x: 264
+    y: 80
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &4788398903687397261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 85114a7f-8735-4cce-b478-efc968f73bac
+  m_EditorClassIdentifier: 
+  text: I need told that you should be careful. There are a lot of Archers in the
+    forest, so I recommend to go along the river, yo!
+  isPlayerSpeaking: 0
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 1009
+    y: 4
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &5711262701303495672
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 2b759c42-3cb4-485f-b668-a33f67a3ad15
+  m_EditorClassIdentifier: 
+  text: Yo, umm... Are you goin to the castle, yea?
+  isPlayerSpeaking: 0
+  children:
+  - 62229c0a-cc7a-4cc9-8c73-394a8a65e37f
+  - 77252c8d-ceed-40ba-a788-c119938bbd5d
+  rect:
+    serializedVersion: 2
+    x: 514
+    y: 80
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &7501455898350146286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 62229c0a-cc7a-4cc9-8c73-394a8a65e37f
+  m_EditorClassIdentifier: 
+  text: Yes...
+  isPlayerSpeaking: 1
+  children:
+  - 85114a7f-8735-4cce-b478-efc968f73bac
+  rect:
+    serializedVersion: 2
+    x: 760
+    y: 3
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &9071195787027700192
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 3a32e81c-f8dd-458b-b830-363f9a4de506
+  m_EditorClassIdentifier: 
+  text: Be careful while are you walking. There are a lot of Archers in the forest,
+    yo!
+  isPlayerSpeaking: 0
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 1002
+    y: 157
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []

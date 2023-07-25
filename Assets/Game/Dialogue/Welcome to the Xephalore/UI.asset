@@ -1,0 +1,248 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-5123394289094946682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: edc3d157-f288-42af-9cde-3dd1d6f31ccd
+  m_EditorClassIdentifier: 
+  text: Ok, I am ready!
+  isPlayerSpeaking: 1
+  children:
+  - d78d93d4-b6ad-4774-9d3b-64ac7a2f2c06
+  rect:
+    serializedVersion: 2
+    x: 256
+    y: 151
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-2619180008878455293
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: d78d93d4-b6ad-4774-9d3b-64ac7a2f2c06
+  m_EditorClassIdentifier: 
+  text: In the upper left corner are your health and mana. A little to the right
+    will be the health of the enemy if you choose him as a target.
+  isPlayerSpeaking: 0
+  children:
+  - 95a5260d-0ac4-4e1b-bdee-5e285f18ea12
+  rect:
+    serializedVersion: 2
+    x: 506
+    y: 151
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-1065974139185100332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 816ea388-4f99-4dc3-8de7-bb39485e941b
+  m_EditorClassIdentifier: 
+  text: You are welcome!
+  isPlayerSpeaking: 0
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 1756
+    y: 151
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78a4e2c12110cff419d55832d9c35f8e, type: 3}
+  m_Name: UI
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: 2213583068432554605}
+  - {fileID: -5123394289094946682}
+  - {fileID: -2619180008878455293}
+  - {fileID: 5400985265632599929}
+  - {fileID: 8734948417686227383}
+  - {fileID: 3121983502885896480}
+  - {fileID: 5631894139347664523}
+  - {fileID: -1065974139185100332}
+  newNodeOffset: {x: 250, y: 0}
+--- !u!114 &2213583068432554605
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: d0795684-48b6-49fe-bc10-539ca1399283
+  m_EditorClassIdentifier: 
+  text: Oh, here you are! I was instructed to tell you how to use Interface.
+  isPlayerSpeaking: 0
+  children:
+  - edc3d157-f288-42af-9cde-3dd1d6f31ccd
+  rect:
+    serializedVersion: 2
+    x: 6
+    y: 151
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &3121983502885896480
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 18c6e3ed-400c-4c44-b503-8ec99c217c99
+  m_EditorClassIdentifier: 
+  text: In the lower right corner is your money. You can earn them by completing
+    quests and killing enemies, and spend them from shopkeepers by buying various
+    useful things.
+  isPlayerSpeaking: 0
+  children:
+  - bc86e547-985a-43d8-825f-44aeb00d0730
+  rect:
+    serializedVersion: 2
+    x: 1256
+    y: 151
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: CompleteObjective
+  condition:
+    and:
+    - or:
+      - predicate: HasQuest
+        parameters:
+        - Welcome to the Xephalore
+        negate: 0
+    - or:
+      - predicate: CompletedQuest
+        parameters:
+        - Welcome to the Xephalore
+        negate: 1
+--- !u!114 &5400985265632599929
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 95a5260d-0ac4-4e1b-bdee-5e285f18ea12
+  m_EditorClassIdentifier: 
+  text: 'In the upper right corner there is a minimap around which there are icons:
+    open a large map or press (M), open the pause menu or press (ESC), open inventory
+    or press (I) and open the quest list or press (N).'
+  isPlayerSpeaking: 0
+  children:
+  - e67eddce-0199-4e2d-87c3-8962af9d3370
+  rect:
+    serializedVersion: 2
+    x: 756
+    y: 151
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &5631894139347664523
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: bc86e547-985a-43d8-825f-44aeb00d0730
+  m_EditorClassIdentifier: 
+  text: Ok, I got it.
+  isPlayerSpeaking: 1
+  children:
+  - 816ea388-4f99-4dc3-8de7-bb39485e941b
+  rect:
+    serializedVersion: 2
+    x: 1506
+    y: 151
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &8734948417686227383
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: e67eddce-0199-4e2d-87c3-8962af9d3370
+  m_EditorClassIdentifier: 
+  text: Bottom is your level and amount of experience, even lower there is an action
+    bar where you can transfer spells and potions. To apply them, use the numbers
+    from 1 to 6, depending on their position.
+  isPlayerSpeaking: 0
+  children:
+  - 18c6e3ed-400c-4c44-b503-8ec99c217c99
+  rect:
+    serializedVersion: 2
+    x: 1006
+    y: 151
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []

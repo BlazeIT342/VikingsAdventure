@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-1409088613719353016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: fb5cc35e-7054-4c0c-be57-17155f673823
+  m_EditorClassIdentifier: 
+  text: How can I get to the Zelberg's house?
+  isPlayerSpeaking: 1
+  children:
+  - d76f5174-9edf-4423-ba1d-92febec07c2c
+  rect:
+    serializedVersion: 2
+    x: 295
+    y: 194.99998
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78a4e2c12110cff419d55832d9c35f8e, type: 3}
+  m_Name: Right
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: 1684060765861605349}
+  - {fileID: 6724154029664395670}
+  - {fileID: -1409088613719353016}
+  newNodeOffset: {x: 250, y: 0}
+--- !u!114 &1684060765861605349
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: ae589bac-9973-4877-abc8-7349ab3a363c
+  m_EditorClassIdentifier: 
+  text: Wassup bro!
+  isPlayerSpeaking: 0
+  children:
+  - fb5cc35e-7054-4c0c-be57-17155f673823
+  rect:
+    serializedVersion: 2
+    x: 55.999985
+    y: 192.99998
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &6724154029664395670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: d76f5174-9edf-4423-ba1d-92febec07c2c
+  m_EditorClassIdentifier: 
+  text: Go Right!
+  isPlayerSpeaking: 0
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 553
+    y: 194.99998
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []

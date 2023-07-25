@@ -1,0 +1,288 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-5727588093815047967
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 8fe6820f-a892-46ba-8f36-fdebe62ab024
+  m_EditorClassIdentifier: 
+  text: I had to kill all my family to save myself. Only after that the Knights gave
+    me a life. My second life. I live here, in the forest, because I feel myself
+    bad after the war. Two...
+  isPlayerSpeaking: 0
+  children:
+  - 9b600b98-a626-42c1-812b-b8e00fb3a0ed
+  rect:
+    serializedVersion: 2
+    x: 1267
+    y: 85
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-3074631166973658274
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 088f5c20-9bde-4e85-9071-cb2bee5294b0
+  m_EditorClassIdentifier: 
+  text: You think I'm viking, but I'm not the viking do you think. In the war versus
+    Knights I could die, but I'm alive, as you can see...
+  isPlayerSpeaking: 0
+  children:
+  - 8fe6820f-a892-46ba-8f36-fdebe62ab024
+  rect:
+    serializedVersion: 2
+    x: 1016
+    y: 85
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-1866893822866366536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 01987329-0405-47f8-b031-50ee59e25072
+  m_EditorClassIdentifier: 
+  text: I give you three seconds to ask me the questions before I kill you. Three...
+  isPlayerSpeaking: 0
+  children:
+  - 8f5eb002-c765-42a0-8125-08d59f070aca
+  rect:
+    serializedVersion: 2
+    x: 517
+    y: 84
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78a4e2c12110cff419d55832d9c35f8e, type: 3}
+  m_Name: Dialogue with betrayer
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: 4194893734001127216}
+  - {fileID: 892918618001918099}
+  - {fileID: -1866893822866366536}
+  - {fileID: 3818824142632545114}
+  - {fileID: -3074631166973658274}
+  - {fileID: -5727588093815047967}
+  - {fileID: 5737606202022756392}
+  - {fileID: 2315587986877128777}
+  - {fileID: 8109255686770561547}
+  - {fileID: 8790734072271889717}
+  newNodeOffset: {x: 250, y: 0}
+--- !u!114 &892918618001918099
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: f39a9a2b-db74-4f8f-b3a7-2146ac116800
+  m_EditorClassIdentifier: 
+  text: You are a viking, yes? I want to speak with you.
+  isPlayerSpeaking: 1
+  children:
+  - 01987329-0405-47f8-b031-50ee59e25072
+  rect:
+    serializedVersion: 2
+    x: 271
+    y: 85
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &2315587986877128777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 70b0aa1f-ae21-40da-88a2-434e5b5f9a00
+  m_EditorClassIdentifier: 
+  text: No! Stop talking about murders! Stop it! ... you have only one second.
+  isPlayerSpeaking: 0
+  children:
+  - efd9c982-b150-471b-9ceb-9d40ecbdd8ca
+  rect:
+    serializedVersion: 2
+    x: 1767
+    y: 85
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &3818824142632545114
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 8f5eb002-c765-42a0-8125-08d59f070aca
+  m_EditorClassIdentifier: 
+  text: What are you doing here? Why are you not in the Village?
+  isPlayerSpeaking: 1
+  children:
+  - 088f5c20-9bde-4e85-9071-cb2bee5294b0
+  rect:
+    serializedVersion: 2
+    x: 767
+    y: 85
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &4194893734001127216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 24811c0d-4379-4a48-be2a-1dcd6655636b
+  m_EditorClassIdentifier: 
+  text: What are you doing in my forest?
+  isPlayerSpeaking: 0
+  children:
+  - f39a9a2b-db74-4f8f-b3a7-2146ac116800
+  rect:
+    serializedVersion: 2
+    x: 17
+    y: 85
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &5737606202022756392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 9b600b98-a626-42c1-812b-b8e00fb3a0ed
+  m_EditorClassIdentifier: 
+  text: Have you slayed somebody else during or after the war?
+  isPlayerSpeaking: 1
+  children:
+  - 70b0aa1f-ae21-40da-88a2-434e5b5f9a00
+  rect:
+    serializedVersion: 2
+    x: 1517
+    y: 85
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &8109255686770561547
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: efd9c982-b150-471b-9ceb-9d40ecbdd8ca
+  m_EditorClassIdentifier: 
+  text: I just want to help you! Please, can I help you?!
+  isPlayerSpeaking: 1
+  children:
+  - d2c2efba-3632-4ba4-bfbf-f00d7184cc51
+  rect:
+    serializedVersion: 2
+    x: 2017
+    y: 84
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &8790734072271889717
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: d2c2efba-3632-4ba4-bfbf-f00d7184cc51
+  m_EditorClassIdentifier: 
+  text: No one will help me. One...
+  isPlayerSpeaking: 0
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 2266
+    y: 84
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: Attack
+  condition:
+    and: []

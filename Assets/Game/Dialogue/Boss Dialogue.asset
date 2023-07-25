@@ -1,0 +1,884 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7377378686973960538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 3954f241-f39f-4289-aed5-ae1a81cb7113
+  m_EditorClassIdentifier: 
+  text: Say goodbye to life!
+  isPlayerSpeaking: 1
+  children:
+  - cba52d18-0c90-41fd-8663-2c38b7d8ef06
+  rect:
+    serializedVersion: 2
+    x: 1025
+    y: 59
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-6527314271679910281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: c8136fe4-ac6c-4898-a140-229943f975ec
+  m_EditorClassIdentifier: 
+  text: Who are you, get out of here!
+  isPlayerSpeaking: 0
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 258
+    y: 168.99998
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and:
+    - or:
+      - predicate: HasQuest
+        parameters:
+        - The Final Battle
+        negate: 1
+--- !u!114 &-4987783745538366353
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 0ba1ce62-819a-4118-8301-e55187d691c0
+  m_EditorClassIdentifier: 
+  text: To be honest, I thought you were going to die somewhere in the woods. But
+    you are here now, Ragnar. I repent that I have done a terrible deed, but I could
+    not have done otherwise. It was a good fight...
+  isPlayerSpeaking: 0
+  children:
+  - a8972c87-e649-4b8f-a75c-24dbd3561e3f
+  rect:
+    serializedVersion: 2
+    x: 2764
+    y: 205.00002
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-4515855252112541876
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: ed6daddf-f824-4d44-8aca-887dd49255b4
+  m_EditorClassIdentifier: 
+  text: As you can see.
+  isPlayerSpeaking: 1
+  children:
+  - 608806b1-b674-425b-bdcb-eccab95ad392
+  rect:
+    serializedVersion: 2
+    x: 613
+    y: 310.99997
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-3964384776274522960
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 9dbe7152-092c-4560-ba90-efd4bc31df3d
+  m_EditorClassIdentifier: 
+  text: ...
+  isPlayerSpeaking: 0
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 3151
+    y: 205.00002
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: Attack
+  condition:
+    and: []
+--- !u!114 &-3942207253211957034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 50a969c5-60fc-4249-9130-fe474c0bf88a
+  m_EditorClassIdentifier: 
+  text: You came here to defeat me, didn't you? So do it!
+  isPlayerSpeaking: 0
+  children:
+  - 3954f241-f39f-4289-aed5-ae1a81cb7113
+  rect:
+    serializedVersion: 2
+    x: 820
+    y: 57.999985
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-2892240370732668169
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: f65bf09f-5821-4f7e-8f02-413470323e63
+  m_EditorClassIdentifier: 
+  text: "To be honest, I didn\u2019t even think that you would come here."
+  isPlayerSpeaking: 0
+  children:
+  - 50a969c5-60fc-4249-9130-fe474c0bf88a
+  rect:
+    serializedVersion: 2
+    x: 609
+    y: 59
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-2402317858850253458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: bf5513fa-1927-49e1-86f1-ac43ea0de9a9
+  m_EditorClassIdentifier: 
+  text: QUICKLY!
+  isPlayerSpeaking: 1
+  children:
+  - 3f9b135f-d348-4cd3-838e-dbffaccfc213
+  rect:
+    serializedVersion: 2
+    x: 1791
+    y: 305
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-1786890575282529442
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: abff44e7-278d-4417-8f19-1ce4b570d9fb
+  m_EditorClassIdentifier: 
+  text: Do you not like it? But I can really call you lucky.
+  isPlayerSpeaking: 0
+  children:
+  - 520d86ea-44fb-42b0-af0a-32375e0476b5
+  rect:
+    serializedVersion: 2
+    x: 2764
+    y: 374
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-1361688308466203661
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: ed40fc50-ccd7-4777-b009-c14efae40533
+  m_EditorClassIdentifier: 
+  text: 'You''re lucky, you were to be executed the day after your parents were executed.
+    I felt sorry for you and I gave you freedom, then I told my father that you ran
+    away. I remember how you threatened me and my whole family when you ran away. '
+  isPlayerSpeaking: 0
+  children:
+  - de95fec0-ba0f-4062-9bc8-3f6f98a0ca7d
+  rect:
+    serializedVersion: 2
+    x: 2377
+    y: 206.00002
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-163501862094586259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 183dc78f-c8a9-4ac8-8feb-eef682a4c601
+  m_EditorClassIdentifier: 
+  text: Well, hello, Ragnar!
+  isPlayerSpeaking: 0
+  children:
+  - df237869-602d-4922-965e-f9777dc02b2b
+  rect:
+    serializedVersion: 2
+    x: 197.99998
+    y: 58.99997
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: Save
+  condition:
+    and:
+    - or:
+      - predicate: HasQuest
+        parameters:
+        - The Final Battle
+        negate: 0
+    - or:
+      - predicate: CompletedQuest
+        parameters:
+        - The Final Battle
+        negate: 1
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78a4e2c12110cff419d55832d9c35f8e, type: 3}
+  m_Name: Boss Dialogue
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: 5063546032917800421}
+  - {fileID: 8750420935710551336}
+  - {fileID: -2892240370732668169}
+  - {fileID: -3942207253211957034}
+  - {fileID: -7377378686973960538}
+  - {fileID: 2871681400379446002}
+  - {fileID: 5216318971451215205}
+  - {fileID: 7001383039808785150}
+  - {fileID: -4515855252112541876}
+  - {fileID: 7334400317638375472}
+  - {fileID: 8006664044353442510}
+  - {fileID: 4053725195693665532}
+  - {fileID: 2187036361275984943}
+  - {fileID: 1195884224091443962}
+  - {fileID: 7213951837114067591}
+  - {fileID: -2402317858850253458}
+  - {fileID: 4908160255196212253}
+  - {fileID: 7098546354879575607}
+  - {fileID: 7468828616614633492}
+  - {fileID: -1361688308466203661}
+  - {fileID: 6304663706825871898}
+  - {fileID: -4987783745538366353}
+  - {fileID: 2117128703568858096}
+  - {fileID: 2245932848795487787}
+  - {fileID: 7027800544916758769}
+  - {fileID: -1786890575282529442}
+  - {fileID: 1141952794524834240}
+  - {fileID: 1738907967472692255}
+  - {fileID: -3964384776274522960}
+  - {fileID: -163501862094586259}
+  - {fileID: -6527314271679910281}
+  newNodeOffset: {x: 250, y: 0}
+--- !u!114 &1141952794524834240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 520d86ea-44fb-42b0-af0a-32375e0476b5
+  m_EditorClassIdentifier: 
+  text: STOP IT! DIE!!!
+  isPlayerSpeaking: 1
+  children:
+  - 34950196-e808-4912-b65b-901818bc4890
+  rect:
+    serializedVersion: 2
+    x: 2956
+    y: 374
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &1195884224091443962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 67cc7d6d-ecff-4387-9bc6-4a878c6dcce8
+  m_EditorClassIdentifier: 
+  text: When my father took over your country... I... was with him...
+  isPlayerSpeaking: 0
+  children:
+  - bf5513fa-1927-49e1-86f1-ac43ea0de9a9
+  rect:
+    serializedVersion: 2
+    x: 1597
+    y: 306
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &1738907967472692255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 34950196-e808-4912-b65b-901818bc4890
+  m_EditorClassIdentifier: 
+  text: ...
+  isPlayerSpeaking: 0
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 3150
+    y: 374
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: Attack
+  condition:
+    and: []
+--- !u!114 &2117128703568858096
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: a8972c87-e649-4b8f-a75c-24dbd3561e3f
+  m_EditorClassIdentifier: 
+  text: I accept your remorse, Zelberg. Rest in peace.
+  isPlayerSpeaking: 1
+  children:
+  - 9dbe7152-092c-4560-ba90-efd4bc31df3d
+  rect:
+    serializedVersion: 2
+    x: 2958
+    y: 205.00002
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &2187036361275984943
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 173e6503-ef50-4b17-aa4f-4e13906620ca
+  m_EditorClassIdentifier: 
+  text: I DONT UNDERSTAND YOU!
+  isPlayerSpeaking: 1
+  children:
+  - 67cc7d6d-ecff-4387-9bc6-4a878c6dcce8
+  rect:
+    serializedVersion: 2
+    x: 1403
+    y: 305.99997
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &2245932848795487787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: e11ced81-4cb4-4c24-b830-e0a832fbe85a
+  m_EditorClassIdentifier: 
+  text: You're lucky, you were to be executed the day after your parents were executed...
+  isPlayerSpeaking: 0
+  children:
+  - 736267ab-bc26-49b3-b3cf-d01583052ae4
+  rect:
+    serializedVersion: 2
+    x: 2378
+    y: 374
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &2871681400379446002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: cba52d18-0c90-41fd-8663-2c38b7d8ef06
+  m_EditorClassIdentifier: 
+  text: We'll see who will say goodbye.
+  isPlayerSpeaking: 0
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 1222
+    y: 60
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: Attack
+  condition:
+    and: []
+--- !u!114 &4053725195693665532
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: a372f43b-df2f-43b7-a93f-10aae602aace
+  m_EditorClassIdentifier: 
+  text: I shouldn't have let you live that day...
+  isPlayerSpeaking: 0
+  children:
+  - 173e6503-ef50-4b17-aa4f-4e13906620ca
+  rect:
+    serializedVersion: 2
+    x: 1209
+    y: 307
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &4908160255196212253
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 3f9b135f-d348-4cd3-838e-dbffaccfc213
+  m_EditorClassIdentifier: 
+  text: I was 25 then. We came to your village. My father's soldiers started killing
+    all the Vikings. I saw a family trying to escape. Mom, dad and a young boy. I
+    think you were about 16 at the time. Quite a youth.  Your family were running
+    away, but you decided to look back and saw me. I stood, and could not think of
+    anything than to tell my father that there are fugitives here. Cough...
+  isPlayerSpeaking: 0
+  children:
+  - b7cfd51c-48d7-4ca4-a8eb-c0ab31b862b6
+  - 044a7c4c-260a-470a-ab46-ea8338bc5f7b
+  rect:
+    serializedVersion: 2
+    x: 1983
+    y: 304
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &5063546032917800421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: d599c29f-8568-4c63-845d-06925a9ed983
+  m_EditorClassIdentifier: 
+  text: ...
+  isPlayerSpeaking: 0
+  children:
+  - 183dc78f-c8a9-4ac8-8feb-eef682a4c601
+  - 8aa1d58e-f9f8-48e6-8361-d181cef651fc
+  - c8136fe4-ac6c-4898-a140-229943f975ec
+  rect:
+    serializedVersion: 2
+    x: -9.000015
+    y: 175.99998
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &5216318971451215205
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 8aa1d58e-f9f8-48e6-8361-d181cef651fc
+  m_EditorClassIdentifier: 
+  text: What? I don't believe it!
+  isPlayerSpeaking: 0
+  children:
+  - ab9311d0-ba6f-4f00-911d-3ddcdb51db75
+  rect:
+    serializedVersion: 2
+    x: 204
+    y: 311
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and:
+    - or:
+      - predicate: HasQuest
+        parameters:
+        - The Final Battle
+        negate: 0
+    - or:
+      - predicate: CompletedQuest
+        parameters:
+        - The Final Battle
+        negate: 0
+--- !u!114 &6304663706825871898
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: de95fec0-ba0f-4062-9bc8-3f6f98a0ca7d
+  m_EditorClassIdentifier: 
+  text: I think I'm starting to remember...
+  isPlayerSpeaking: 1
+  children:
+  - 0ba1ce62-819a-4118-8301-e55187d691c0
+  rect:
+    serializedVersion: 2
+    x: 2570
+    y: 205.00002
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &7001383039808785150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: ab9311d0-ba6f-4f00-911d-3ddcdb51db75
+  m_EditorClassIdentifier: 
+  text: Did you... defeat me?
+  isPlayerSpeaking: 0
+  children:
+  - ed6daddf-f824-4d44-8aca-887dd49255b4
+  rect:
+    serializedVersion: 2
+    x: 408
+    y: 311
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &7027800544916758769
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 736267ab-bc26-49b3-b3cf-d01583052ae4
+  m_EditorClassIdentifier: 
+  text: NO!
+  isPlayerSpeaking: 1
+  children:
+  - abff44e7-278d-4417-8f19-1ce4b570d9fb
+  rect:
+    serializedVersion: 2
+    x: 2572
+    y: 374
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &7098546354879575607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: b7cfd51c-48d7-4ca4-a8eb-c0ab31b862b6
+  m_EditorClassIdentifier: 
+  text: STOP. I remembered it.
+  isPlayerSpeaking: 1
+  children:
+  - e11ced81-4cb4-4c24-b830-e0a832fbe85a
+  rect:
+    serializedVersion: 2
+    x: 2184
+    y: 375
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &7213951837114067591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: e4c4590a-bbe3-4a96-b5c4-3ec312a07f06
+  m_EditorClassIdentifier: 
+  text: 
+  isPlayerSpeaking: 0
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 4093
+    y: 171.99998
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &7334400317638375472
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 608806b1-b674-425b-bdcb-eccab95ad392
+  m_EditorClassIdentifier: 
+  text: To be honest, I thought you were just joking with me... until this day.
+  isPlayerSpeaking: 0
+  children:
+  - fd7d7e30-1fd3-4975-a4f3-6f3c036ee5a0
+  rect:
+    serializedVersion: 2
+    x: 818
+    y: 309
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &7468828616614633492
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 044a7c4c-260a-470a-ab46-ea8338bc5f7b
+  m_EditorClassIdentifier: 
+  text: CONTINUE! QUICKLY!
+  isPlayerSpeaking: 1
+  children:
+  - ed40fc50-ccd7-4777-b009-c14efae40533
+  rect:
+    serializedVersion: 2
+    x: 2184
+    y: 206
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &8006664044353442510
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: fd7d7e30-1fd3-4975-a4f3-6f3c036ee5a0
+  m_EditorClassIdentifier: 
+  text: What are you talking about?
+  isPlayerSpeaking: 1
+  children:
+  - a372f43b-df2f-43b7-a93f-10aae602aace
+  rect:
+    serializedVersion: 2
+    x: 1014
+    y: 309
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &8750420935710551336
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: df237869-602d-4922-965e-f9777dc02b2b
+  m_EditorClassIdentifier: 
+  text: I have been waiting for you for a long time...
+  isPlayerSpeaking: 0
+  children:
+  - f65bf09f-5821-4f7e-8f02-413470323e63
+  rect:
+    serializedVersion: 2
+    x: 408
+    y: 59.000015
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []

@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a19c14518643df4b9997f2641f759ec, type: 3}
+  m_Name: Super Fire Spray
+  m_EditorClassIdentifier: 
+  itemID: 808a4c81-edae-458c-9da1-560b38a6c50f
+  displayName: Super Fire Spray
+  description: Death from the sky!
+  icon: {fileID: 21300000, guid: 7dc4944a61c3baf479b98f5bb9463f4c, type: 3}
+  pickup: {fileID: 7227525995054560384, guid: d5a65ec5f9a267449bb8cea1684b5c0b, type: 3}
+  stackable: 0
+  price: 10000
+  category: 5
+  consumable: 0
+  targetingStrategy: {fileID: 11400000, guid: cb3862f86afb0194383bdc542200b157, type: 2}
+  filterStrategies:
+  - {fileID: 11400000, guid: b1031a5ff41116b478c83aceca0da284, type: 2}
+  effectStrategies:
+  - {fileID: 11400000, guid: dc7dbaab913f83f44bb3b9c26edec582, type: 2}
+  - {fileID: 11400000, guid: 5b51e769889c5504aa9ea11a841f17ae, type: 2}
+  - {fileID: 11400000, guid: 5bcdf1e429ce1d34e9c36b27c8873979, type: 2}
+  cooldownTime: 1
+  manaCost: 200

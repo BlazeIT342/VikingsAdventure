@@ -1,0 +1,149 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78a4e2c12110cff419d55832d9c35f8e, type: 3}
+  m_Name: Soldiers slayer
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: 2953863228928300255}
+  - {fileID: 7000798005793560948}
+  - {fileID: 8810566631495423292}
+  - {fileID: 1595061312043619297}
+  newNodeOffset: {x: 250, y: 0}
+--- !u!114 &1595061312043619297
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: c58118bb-a38b-4659-a833-8fbe80e202e3
+  m_EditorClassIdentifier: 
+  text: I will pray for you!
+  isPlayerSpeaking: 0
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 277
+    y: 221.99998
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and:
+    - or:
+      - predicate: HasQuest
+        parameters:
+        - Soldiers slayer
+        negate: 0
+    - or:
+      - predicate: CompletedQuest
+        parameters:
+        - Soldiers slayer
+        negate: 0
+--- !u!114 &2953863228928300255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: b0e2c4b8-688c-48ff-8fcd-5c9b7d9c191a
+  m_EditorClassIdentifier: 
+  text: They slayed... They slayed my friends...
+  isPlayerSpeaking: 0
+  children:
+  - b6d716ab-6486-479e-a2bc-2995b91614da
+  - c58118bb-a38b-4659-a833-8fbe80e202e3
+  - 5360ba8c-c140-40fa-80a1-98a41563335e
+  rect:
+    serializedVersion: 2
+    x: 25
+    y: 91
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &7000798005793560948
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: b6d716ab-6486-479e-a2bc-2995b91614da
+  m_EditorClassIdentifier: 
+  text: This two camps along the road... Take revenge on them for my friends...Please...
+  isPlayerSpeaking: 0
+  children:
+  - 5360ba8c-c140-40fa-80a1-98a41563335e
+  rect:
+    serializedVersion: 2
+    x: 275
+    y: 91
+    width: 200
+    height: 100
+  onEnterAction: GiveQuest
+  onExitAction: 
+  condition:
+    and:
+    - or:
+      - predicate: HasQuest
+        parameters:
+        - Soldiers slayer
+        negate: 1
+--- !u!114 &8810566631495423292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 5360ba8c-c140-40fa-80a1-98a41563335e
+  m_EditorClassIdentifier: 
+  text: They slayed... They slayed my friends...
+  isPlayerSpeaking: 0
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 499
+    y: -19.000004
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and:
+    - or:
+      - predicate: HasQuest
+        parameters:
+        - Soldiers slayer
+        negate: 0
+    - or:
+      - predicate: CompletedQuest
+        parameters:
+        - Soldiers slayer
+        negate: 1

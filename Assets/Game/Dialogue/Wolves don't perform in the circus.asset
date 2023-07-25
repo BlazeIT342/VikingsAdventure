@@ -1,0 +1,340 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-3353924584207543747
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 51150105-5973-4fc8-a118-0fcaf5b8de59
+  m_EditorClassIdentifier: 
+  text: 'And the sad thing is that my sons are in that circus. I worry about them.
+    Can you help me? '
+  isPlayerSpeaking: 0
+  children:
+  - af7e9bca-fffb-43bb-bfd6-f4094e96e180
+  rect:
+    serializedVersion: 2
+    x: 1274
+    y: 173
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78a4e2c12110cff419d55832d9c35f8e, type: 3}
+  m_Name: Wolves don't perform in the circus
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: 1541347840871487863}
+  - {fileID: 2686991786813614977}
+  - {fileID: 8453750372793556176}
+  - {fileID: 7363294433615586407}
+  - {fileID: 4780618814929208312}
+  - {fileID: -3353924584207543747}
+  - {fileID: 7273435144355895061}
+  - {fileID: 6981938224964621288}
+  - {fileID: 6624468363670579007}
+  - {fileID: 7277535672219892648}
+  - {fileID: 8330680479275230874}
+  newNodeOffset: {x: 250, y: 0}
+--- !u!114 &1541347840871487863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: ba34a7b5-abf3-4bcf-a691-ff09608f013f
+  m_EditorClassIdentifier: 
+  text: Hello!
+  isPlayerSpeaking: 0
+  children:
+  - b4d04104-bae2-476b-b225-99b44902a303
+  - e5fe1114-2b3b-4292-8478-116eb7165a21
+  - 2294fa05-14b6-4ecb-bdd7-e48c07eab18d
+  rect:
+    serializedVersion: 2
+    x: 24
+    y: 172
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &2686991786813614977
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: b4d04104-bae2-476b-b225-99b44902a303
+  m_EditorClassIdentifier: 
+  text: You have the honor to speak with the owner of the largest circus in Xephalore!
+  isPlayerSpeaking: 0
+  children:
+  - 27b49721-b8a8-430c-963d-696c51a2a990
+  rect:
+    serializedVersion: 2
+    x: 272
+    y: 172
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and:
+    - or:
+      - predicate: HasQuest
+        parameters:
+        - Wolves don't perform in the circus
+        negate: 1
+--- !u!114 &4780618814929208312
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 061b184a-3471-43e9-a4e7-af11e77de843
+  m_EditorClassIdentifier: 
+  text: I had my own circus until that ugly Knight attacked it.
+  isPlayerSpeaking: 0
+  children:
+  - 51150105-5973-4fc8-a118-0fcaf5b8de59
+  rect:
+    serializedVersion: 2
+    x: 1024
+    y: 173
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &6624468363670579007
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: e5fe1114-2b3b-4292-8478-116eb7165a21
+  m_EditorClassIdentifier: 
+  text: Did you think about getting a job with me after our victory?
+  isPlayerSpeaking: 0
+  children:
+  - 82730352-67e5-47f2-99e4-42f755760cd7
+  rect:
+    serializedVersion: 2
+    x: 273
+    y: 305
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and:
+    - or:
+      - predicate: HasQuest
+        parameters:
+        - Wolves don't perform in the circus
+        negate: 0
+    - or:
+      - predicate: CompletedQuest
+        parameters:
+        - Wolves don't perform in the circus
+        negate: 0
+--- !u!114 &6981938224964621288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 2294fa05-14b6-4ecb-bdd7-e48c07eab18d
+  m_EditorClassIdentifier: 
+  text: You can slay the Knight and save my sons. But be careful, the Knight have
+    a few helpers...
+  isPlayerSpeaking: 0
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 1775
+    y: 74
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and:
+    - or:
+      - predicate: HasQuest
+        parameters:
+        - Wolves don't perform in the circus
+        negate: 0
+    - or:
+      - predicate: CompletedQuest
+        parameters:
+        - Wolves don't perform in the circus
+        negate: 1
+--- !u!114 &7273435144355895061
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: af7e9bca-fffb-43bb-bfd6-f4094e96e180
+  m_EditorClassIdentifier: 
+  text: I always help kind people. What can I do?
+  isPlayerSpeaking: 1
+  children:
+  - 2294fa05-14b6-4ecb-bdd7-e48c07eab18d
+  rect:
+    serializedVersion: 2
+    x: 1524
+    y: 172
+    width: 200
+    height: 100
+  onEnterAction: GiveQuest
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &7277535672219892648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 82730352-67e5-47f2-99e4-42f755760cd7
+  m_EditorClassIdentifier: 
+  text: Wolves don't perform in the circus...
+  isPlayerSpeaking: 1
+  children:
+  - 2317aeea-4fa0-469b-b431-d24552b956e0
+  rect:
+    serializedVersion: 2
+    x: 524
+    y: 305
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &7363294433615586407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 56d89288-7932-4afd-9151-9571cda12fbc
+  m_EditorClassIdentifier: 
+  text: ... and?
+  isPlayerSpeaking: 1
+  children:
+  - 061b184a-3471-43e9-a4e7-af11e77de843
+  rect:
+    serializedVersion: 2
+    x: 775
+    y: 173
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &8330680479275230874
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 2317aeea-4fa0-469b-b431-d24552b956e0
+  m_EditorClassIdentifier: 
+  text: Auff
+  isPlayerSpeaking: 0
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 773
+    y: 305
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &8453750372793556176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 27b49721-b8a8-430c-963d-696c51a2a990
+  m_EditorClassIdentifier: 
+  text: Or... with with the former owner... Nevermind.
+  isPlayerSpeaking: 0
+  children:
+  - 56d89288-7932-4afd-9151-9571cda12fbc
+  rect:
+    serializedVersion: 2
+    x: 524
+    y: 172
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []

@@ -1,0 +1,145 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78a4e2c12110cff419d55832d9c35f8e, type: 3}
+  m_Name: Warning Tough Fight
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: 6983665075075392593}
+  - {fileID: 2892114049238998054}
+  - {fileID: 6100799330339157128}
+  - {fileID: 6546402438629679615}
+  newNodeOffset: {x: 250, y: 0}
+--- !u!114 &2892114049238998054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 4005a302-e192-4a99-aebc-dd318eaed778
+  m_EditorClassIdentifier: 
+  text: You seem too weak to tackle him!
+  isPlayerSpeaking: 0
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 254
+    y: 150
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and:
+    - or:
+      - predicate: MinimumTrait
+        parameters:
+        - Strength
+        - 4
+        negate: 1
+--- !u!114 &6100799330339157128
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 6df4f001-6e25-43af-ba47-14717f6abe82
+  m_EditorClassIdentifier: 
+  text: That sword might do the trick!
+  isPlayerSpeaking: 0
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 258
+    y: 360
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and:
+    - or:
+      - predicate: HasItemEquiped
+        parameters:
+        - 41c36d44-938f-45b5-8e67-706354adbb81
+        negate: 0
+--- !u!114 &6546402438629679615
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 6e963fd3-6f4a-45a6-ba57-64a26b16dfc9
+  m_EditorClassIdentifier: 
+  text: I think a sword might help.
+  isPlayerSpeaking: 0
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 258
+    y: 252.99998
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and:
+    - or:
+      - predicate: MinimumTrait
+        parameters:
+        - Strength
+        - 4
+        negate: 0
+    - or:
+      - predicate: HasItemEquiped
+        parameters:
+        - 41c36d44-938f-45b5-8e67-706354adbb81
+        negate: 1
+--- !u!114 &6983665075075392593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: e5d49e1b-a692-4b80-8704-259bfd45e71b
+  m_EditorClassIdentifier: 
+  text: Watch out! The swamp donkey lies this way!
+  isPlayerSpeaking: 0
+  children:
+  - 4005a302-e192-4a99-aebc-dd318eaed778
+  - 6df4f001-6e25-43af-ba47-14717f6abe82
+  - 6e963fd3-6f4a-45a6-ba57-64a26b16dfc9
+  rect:
+    serializedVersion: 2
+    x: 4
+    y: 150
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []

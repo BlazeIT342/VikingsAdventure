@@ -1,0 +1,242 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7662783877525771438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 8e628a4d-e265-4a9b-92d9-0f52553343ee
+  m_EditorClassIdentifier: 
+  text: Intelligence parameter is responsible for the amount of mana.
+  isPlayerSpeaking: 0
+  children:
+  - c295bc4e-0691-41ec-a31c-458f9327d746
+  rect:
+    serializedVersion: 2
+    x: 1046
+    y: 131
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-6385797027225660579
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: d7e5ac6d-cca2-4eb4-a523-989b0dc15565
+  m_EditorClassIdentifier: 
+  text: Okay, thanks, I'll open it up and boost it now.
+  isPlayerSpeaking: 1
+  children:
+  - 4cf5949a-a217-4678-a808-dd2e27729534
+  rect:
+    serializedVersion: 2
+    x: 1546
+    y: 131
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-6204940925529852736
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 4cf5949a-a217-4678-a808-dd2e27729534
+  m_EditorClassIdentifier: 
+  text: Good Luck, Ragnar!
+  isPlayerSpeaking: 0
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 1796
+    y: 131
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-5360840594426681583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 088ec0e0-6b8c-42a7-a6ec-ed55ef5ef3d2
+  m_EditorClassIdentifier: 
+  text: Hello, Ragnar! Let me tell you about Traits.
+  isPlayerSpeaking: 0
+  children:
+  - 9a36ef83-6351-45c3-84b1-eecb5bd0febf
+  rect:
+    serializedVersion: 2
+    x: 46
+    y: 131
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-2076832234617821579
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 9a36ef83-6351-45c3-84b1-eecb5bd0febf
+  m_EditorClassIdentifier: 
+  text: If you press (T) a menu with stat boosting will appear.
+  isPlayerSpeaking: 0
+  children:
+  - c5a488c2-42a5-4884-936a-bdebb9ecf2e4
+  rect:
+    serializedVersion: 2
+    x: 296
+    y: 131
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78a4e2c12110cff419d55832d9c35f8e, type: 3}
+  m_Name: Traits
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: -5360840594426681583}
+  - {fileID: -2076832234617821579}
+  - {fileID: 3400017039788055634}
+  - {fileID: 633373287075390670}
+  - {fileID: -7662783877525771438}
+  - {fileID: 2780063169948724393}
+  - {fileID: -6385797027225660579}
+  - {fileID: -6204940925529852736}
+  newNodeOffset: {x: 250, y: 0}
+--- !u!114 &633373287075390670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: ca7b5655-79a2-4891-9fc2-cc22046bf0c5
+  m_EditorClassIdentifier: 
+  text: Agility parameter is responsible for damage.
+  isPlayerSpeaking: 0
+  children:
+  - 8e628a4d-e265-4a9b-92d9-0f52553343ee
+  rect:
+    serializedVersion: 2
+    x: 796
+    y: 131
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &2780063169948724393
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: c295bc4e-0691-41ec-a31c-458f9327d746
+  m_EditorClassIdentifier: 
+  text: And the charisma parameter is responsible for the percentage of discounts
+    from sellers. The more charisma - the lower the price of items
+  isPlayerSpeaking: 0
+  children:
+  - d7e5ac6d-cca2-4eb4-a523-989b0dc15565
+  rect:
+    serializedVersion: 2
+    x: 1296
+    y: 131
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: CompleteObjective
+  condition:
+    and:
+    - or:
+      - predicate: HasQuest
+        parameters:
+        - Welcome to the Xephalore
+        negate: 0
+    - or:
+      - predicate: CompletedQuest
+        parameters:
+        - Welcome to the Xephalore
+        negate: 1
+--- !u!114 &3400017039788055634
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: c5a488c2-42a5-4884-936a-bdebb9ecf2e4
+  m_EditorClassIdentifier: 
+  text: The strength parameter is responsible for the amount of health
+  isPlayerSpeaking: 0
+  children:
+  - ca7b5655-79a2-4891-9fc2-cc22046bf0c5
+  rect:
+    serializedVersion: 2
+    x: 546
+    y: 131
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []

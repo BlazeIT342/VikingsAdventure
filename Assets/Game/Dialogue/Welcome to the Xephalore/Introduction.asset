@@ -1,0 +1,246 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8954041084283580344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 62dd6a1d-8b65-4b92-9a32-dd035ac36766
+  m_EditorClassIdentifier: 
+  text: 'One part of vikings were slained by Knights and another part  have been
+    living in forests all days... '
+  isPlayerSpeaking: 0
+  children:
+  - 25cfe5ac-8eb9-4472-a290-94fde700b4d8
+  rect:
+    serializedVersion: 2
+    x: 1060
+    y: 227.99998
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78a4e2c12110cff419d55832d9c35f8e, type: 3}
+  m_Name: Introduction
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: 6696366120243869303}
+  - {fileID: 7700013489428039169}
+  - {fileID: 5743128379697564915}
+  - {fileID: 7565142111427080332}
+  - {fileID: -8954041084283580344}
+  - {fileID: 5987678007332785733}
+  - {fileID: 4713124989788132109}
+  - {fileID: 4982644941644149620}
+  newNodeOffset: {x: 250, y: 0}
+--- !u!114 &4713124989788132109
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 789cfbbf-b885-4f4c-bf17-b723632162e3
+  m_EditorClassIdentifier: 
+  text: Do it for all vikings, do it for our coutry!
+  isPlayerSpeaking: 0
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 1753
+    y: 229.99998
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &4982644941644149620
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 88e08a0d-47d0-4506-8ccd-31eeb3dc63f4
+  m_EditorClassIdentifier: 
+  text: I will not fail you!
+  isPlayerSpeaking: 1
+  children:
+  - 789cfbbf-b885-4f4c-bf17-b723632162e3
+  rect:
+    serializedVersion: 2
+    x: 1536
+    y: 230.99997
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &5743128379697564915
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 59698aa3-06b6-41c6-87be-aeda43b0fab9
+  m_EditorClassIdentifier: 
+  text: Continue.
+  isPlayerSpeaking: 1
+  children:
+  - 7f403a58-0bb5-4c19-82ef-9738155f9221
+  rect:
+    serializedVersion: 2
+    x: 309
+    y: 228.99998
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &5987678007332785733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 25cfe5ac-8eb9-4472-a290-94fde700b4d8
+  m_EditorClassIdentifier: 
+  text: '... till up this day! We have built this Great Village which named after
+    our coutry - Xephalore. I know, you would like to take revenge these bad people,
+    so I beleve in you, Ragnar! '
+  isPlayerSpeaking: 0
+  children:
+  - 88e08a0d-47d0-4506-8ccd-31eeb3dc63f4
+  rect:
+    serializedVersion: 2
+    x: 1310
+    y: 227.99998
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: CompleteObjective
+  condition:
+    and:
+    - or:
+      - predicate: HasQuest
+        parameters:
+        - Welcome to the Xephalore
+        negate: 0
+    - or:
+      - predicate: CompletedQuest
+        parameters:
+        - Welcome to the Xephalore
+        negate: 1
+--- !u!114 &6696366120243869303
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 7a58343e-3ee6-44d2-b6f3-1bd58cc10029
+  m_EditorClassIdentifier: 
+  text: Hi, I would like to tell you the history of our Village.
+  isPlayerSpeaking: 0
+  children:
+  - 59698aa3-06b6-41c6-87be-aeda43b0fab9
+  rect:
+    serializedVersion: 2
+    x: 62
+    y: 227.99998
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &7565142111427080332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 16235c28-b76f-4d07-a90c-de6cf15ca02d
+  m_EditorClassIdentifier: 
+  text: 'At one day our lives were changed... The Knights of Steel Swords attacked
+    us, so we were forced to retreat...  '
+  isPlayerSpeaking: 0
+  children:
+  - 62dd6a1d-8b65-4b92-9a32-dd035ac36766
+  rect:
+    serializedVersion: 2
+    x: 810
+    y: 227.99998
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &7700013489428039169
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 7f403a58-0bb5-4c19-82ef-9738155f9221
+  m_EditorClassIdentifier: 
+  text: So... We all have been living in the Great country named Xephalore. Our citizens
+    were strong, but kind...
+  isPlayerSpeaking: 0
+  children:
+  - 16235c28-b76f-4d07-a90c-de6cf15ca02d
+  rect:
+    serializedVersion: 2
+    x: 560
+    y: 227.99998
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []

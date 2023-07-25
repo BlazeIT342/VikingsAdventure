@@ -1,0 +1,287 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7759855641177710833
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 7d5ae45f-10ea-4a33-ae11-0f6700f44530
+  m_EditorClassIdentifier: 
+  text: I have found the missing sock!
+  isPlayerSpeaking: 1
+  children:
+  - 297a14e3-5d76-466c-8a2a-b3db45f3a3c8
+  rect:
+    serializedVersion: 2
+    x: 347
+    y: 393
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and:
+    - or:
+      - predicate: HasQuest
+        parameters:
+        - Find the missing sock
+        negate: 0
+    - or:
+      - predicate: CompletedQuest
+        parameters:
+        - Find the missing sock
+        negate: 0
+      - predicate: HasInventoryItem
+        parameters:
+        - 7f547585-5b23-4730-91c7-7841c1220da9
+        negate: 0
+--- !u!114 &-6731393927360354082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 61a0bae3-919d-4f8c-9326-83d0a92adf40
+  m_EditorClassIdentifier: 
+  text: I am already on the case!
+  isPlayerSpeaking: 1
+  children:
+  - 0fd190c7-3fc5-4efa-8b88-ac38590c2eae
+  rect:
+    serializedVersion: 2
+    x: 347
+    y: 300
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and:
+    - or:
+      - predicate: HasQuest
+        parameters:
+        - Find the missing sock
+        negate: 0
+    - or:
+      - predicate: CompletedQuest
+        parameters:
+        - Find the missing sock
+        negate: 1
+--- !u!114 &-5339185278278439112
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: be8b750c-6496-4236-9a46-a256e0ba36f6
+  m_EditorClassIdentifier: 
+  text: Good Luck!
+  isPlayerSpeaking: 0
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 581
+    y: 206
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: GiveQuest
+  condition:
+    and: []
+--- !u!114 &-5295110152769560874
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 0fd190c7-3fc5-4efa-8b88-ac38590c2eae
+  m_EditorClassIdentifier: 
+  text: Oops, bad memory
+  isPlayerSpeaking: 0
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 581
+    y: 300
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-3921894720942215706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: f7a000f5-7723-4e63-a128-41f70a61a689
+  m_EditorClassIdentifier: 
+  text: Sorry
+  isPlayerSpeaking: 0
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 578
+    y: 116
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-1994110189639230935
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 71ca330b-4b61-49e8-bc44-694ba4ca8145
+  m_EditorClassIdentifier: 
+  text: I lost my second sock. Can you help me?
+  isPlayerSpeaking: 0
+  children:
+  - 7bd5b01f-7da3-43ac-9a66-0712386d4fda
+  - 28944349-0fca-409e-b34a-a6bc03c9009d
+  - 61a0bae3-919d-4f8c-9326-83d0a92adf40
+  - 7d5ae45f-10ea-4a33-ae11-0f6700f44530
+  rect:
+    serializedVersion: 2
+    x: 104
+    y: 116
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-1805653840716585049
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 297a14e3-5d76-466c-8a2a-b3db45f3a3c8
+  m_EditorClassIdentifier: 
+  text: That's amazing! Thank you!
+  isPlayerSpeaking: 0
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 583
+    y: 393
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-9616277081739642
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 7bd5b01f-7da3-43ac-9a66-0712386d4fda
+  m_EditorClassIdentifier: 
+  text: Are you idiot?
+  isPlayerSpeaking: 1
+  children:
+  - f7a000f5-7723-4e63-a128-41f70a61a689
+  rect:
+    serializedVersion: 2
+    x: 347
+    y: 116
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78a4e2c12110cff419d55832d9c35f8e, type: 3}
+  m_Name: Find The missing sock
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: -1994110189639230935}
+  - {fileID: -9616277081739642}
+  - {fileID: 5929592640213580808}
+  - {fileID: -5339185278278439112}
+  - {fileID: -6731393927360354082}
+  - {fileID: -5295110152769560874}
+  - {fileID: -7759855641177710833}
+  - {fileID: -1805653840716585049}
+  - {fileID: -3921894720942215706}
+  newNodeOffset: {x: 250, y: 0}
+--- !u!114 &5929592640213580808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 28944349-0fca-409e-b34a-a6bc03c9009d
+  m_EditorClassIdentifier: 
+  text: I don't use socks but I'll help you.
+  isPlayerSpeaking: 1
+  children:
+  - be8b750c-6496-4236-9a46-a256e0ba36f6
+  rect:
+    serializedVersion: 2
+    x: 347
+    y: 207.99998
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and:
+    - or:
+      - predicate: HasQuest
+        parameters:
+        - Find the missing sock
+        negate: 1

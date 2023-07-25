@@ -1,0 +1,232 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9149382239907649737
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: a703fbde-aa68-4108-b783-ca9d4f12a4ed
+  m_EditorClassIdentifier: 
+  text: 'Hi, Ragnar! A lot of survivor vikings sing the odes about your deeds. '
+  isPlayerSpeaking: 0
+  children:
+  - 6c6031c8-7d76-401d-ab4b-b973d2b63c6d
+  - 62ec53d5-a1d8-4ca9-b544-88d714e2cff3
+  - 7ed9645c-dced-4226-9df4-d2188f6c0f82
+  rect:
+    serializedVersion: 2
+    x: 21
+    y: 143
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-7680095682633157094
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 62ec53d5-a1d8-4ca9-b544-88d714e2cff3
+  m_EditorClassIdentifier: 
+  text: Bye, Ragnar.
+  isPlayerSpeaking: 0
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 1284
+    y: 62
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and:
+    - or:
+      - predicate: HasQuest
+        parameters:
+        - We will meet in the castle
+        negate: 0
+    - or:
+      - predicate: CompletedQuest
+        parameters:
+        - We will meet in the castle
+        negate: 1
+--- !u!114 &-6346196826800438357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 60456f70-2cf6-45cb-bfb3-cb41ef74d417
+  m_EditorClassIdentifier: 
+  text: Listen. You should put on the most durable clothes, take the strongest weapons
+    and buy more potions to restore health, okay?
+  isPlayerSpeaking: 0
+  children:
+  - 229d1995-ce25-43b8-80a0-8b36e436305d
+  rect:
+    serializedVersion: 2
+    x: 764
+    y: 142
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-1432050073997721569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: ead7dad9-269f-47cc-b97c-35ec69b7c05c
+  m_EditorClassIdentifier: 
+  text: I need to go to the Castle too, but the Guards at the enter will slay us.
+  isPlayerSpeaking: 0
+  children:
+  - 60456f70-2cf6-45cb-bfb3-cb41ef74d417
+  rect:
+    serializedVersion: 2
+    x: 520
+    y: 142
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-664873191716133289
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 7ed9645c-dced-4226-9df4-d2188f6c0f82
+  m_EditorClassIdentifier: 
+  text: What are you doing here? You must be in the castle
+  isPlayerSpeaking: 0
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 257
+    y: 283
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and:
+    - or:
+      - predicate: HasQuest
+        parameters:
+        - We will meet in the castle
+        negate: 0
+    - or:
+      - predicate: CompletedQuest
+        parameters:
+        - We will meet in the castle
+        negate: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78a4e2c12110cff419d55832d9c35f8e, type: 3}
+  m_Name: We will meet in the castle
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: -9149382239907649737}
+  - {fileID: 4894901384003236849}
+  - {fileID: -1432050073997721569}
+  - {fileID: -6346196826800438357}
+  - {fileID: 2978190260292557146}
+  - {fileID: -7680095682633157094}
+  - {fileID: -664873191716133289}
+  newNodeOffset: {x: 250, y: 0}
+--- !u!114 &2978190260292557146
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 229d1995-ce25-43b8-80a0-8b36e436305d
+  m_EditorClassIdentifier: 
+  text: Great, do it and go to the Castle and don't forget about enemies in the forests,
+    of course.
+  isPlayerSpeaking: 0
+  children:
+  - 62ec53d5-a1d8-4ca9-b544-88d714e2cff3
+  rect:
+    serializedVersion: 2
+    x: 1020
+    y: 142
+    width: 200
+    height: 100
+  onEnterAction: GiveQuest
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &4894901384003236849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 6c6031c8-7d76-401d-ab4b-b973d2b63c6d
+  m_EditorClassIdentifier: 
+  text: It's nice to hear.
+  isPlayerSpeaking: 1
+  children:
+  - ead7dad9-269f-47cc-b97c-35ec69b7c05c
+  rect:
+    serializedVersion: 2
+    x: 270
+    y: 142
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and:
+    - or:
+      - predicate: HasQuest
+        parameters:
+        - We will meet in the castle
+        negate: 1

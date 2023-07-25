@@ -1,0 +1,317 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-5090212922271204926
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 7d4860d0-10c4-4efd-b730-930bbfea9146
+  m_EditorClassIdentifier: 
+  text: Thank you for protecting me.
+  isPlayerSpeaking: 0
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 246
+    y: 309
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and:
+    - or:
+      - predicate: HasQuest
+        parameters:
+        - Help for poor man
+        negate: 0
+    - or:
+      - predicate: CompletedQuest
+        parameters:
+        - Help for poor man
+        negate: 0
+--- !u!114 &-4125546083469484206
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: ef8f11bd-d722-4e4b-8ca8-7daa4c3148d0
+  m_EditorClassIdentifier: 
+  text: Nice, and the problem is that this is MY house.
+  isPlayerSpeaking: 0
+  children:
+  - 6397c797-4870-42d3-b896-c13787946197
+  rect:
+    serializedVersion: 2
+    x: 1317
+    y: 1
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-3262440145817754585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 6397c797-4870-42d3-b896-c13787946197
+  m_EditorClassIdentifier: 
+  text: 'This Knight has stole it. Can you slay him and give me back my home?  '
+  isPlayerSpeaking: 0
+  children:
+  - 94d64b8b-647f-421d-a817-7d33f8118aa0
+  rect:
+    serializedVersion: 2
+    x: 1561
+    y: 5
+    width: 200
+    height: 100
+  onEnterAction: GiveQuest
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-174171551272663500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 3f35e34a-d872-4bc5-b00e-0657f4ac4d08
+  m_EditorClassIdentifier: 
+  text: Oh, hello man. Can you help me?
+  isPlayerSpeaking: 0
+  children:
+  - b208ac90-55c2-4957-99c3-92d8afe58f48
+  - 8dc723a7-52fd-47d3-910b-acc433459c31
+  - 94d64b8b-647f-421d-a817-7d33f8118aa0
+  - 7d4860d0-10c4-4efd-b730-930bbfea9146
+  rect:
+    serializedVersion: 2
+    x: 14
+    y: 78
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78a4e2c12110cff419d55832d9c35f8e, type: 3}
+  m_Name: Help for poor man
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: -174171551272663500}
+  - {fileID: 7562372948748879094}
+  - {fileID: 8331083006829021963}
+  - {fileID: 6059996610322430499}
+  - {fileID: 1324760952216749303}
+  - {fileID: 4967680822378408427}
+  - {fileID: -4125546083469484206}
+  - {fileID: -3262440145817754585}
+  - {fileID: 2242050660098048831}
+  - {fileID: -5090212922271204926}
+  newNodeOffset: {x: 250, y: 0}
+--- !u!114 &1324760952216749303
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: c2c7363a-0436-4f04-a3f3-dec16349db9a
+  m_EditorClassIdentifier: 
+  text: Can I help you?
+  isPlayerSpeaking: 1
+  children:
+  - 924a06e3-8646-4aac-92a3-e2832fd59b93
+  rect:
+    serializedVersion: 2
+    x: 739
+    y: 177
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &2242050660098048831
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 94d64b8b-647f-421d-a817-7d33f8118aa0
+  m_EditorClassIdentifier: 
+  text: Good Luck!
+  isPlayerSpeaking: 0
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 1809
+    y: 121
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and:
+    - or:
+      - predicate: HasQuest
+        parameters:
+        - Help for poor man
+        negate: 0
+    - or:
+      - predicate: CompletedQuest
+        parameters:
+        - Help for poor man
+        negate: 1
+--- !u!114 &4967680822378408427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 924a06e3-8646-4aac-92a3-e2832fd59b93
+  m_EditorClassIdentifier: 
+  text: 'Watch, can you see this house in front of you? '
+  isPlayerSpeaking: 0
+  children:
+  - ef8f11bd-d722-4e4b-8ca8-7daa4c3148d0
+  rect:
+    serializedVersion: 2
+    x: 1009
+    y: 0.9999962
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &6059996610322430499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 9985443f-9d40-4633-b203-ef8fad11690a
+  m_EditorClassIdentifier: 
+  text: Okay, but I thought you need money, no?
+  isPlayerSpeaking: 0
+  children:
+  - c2c7363a-0436-4f04-a3f3-dec16349db9a
+  rect:
+    serializedVersion: 2
+    x: 483
+    y: 176.99998
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &7562372948748879094
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: b208ac90-55c2-4957-99c3-92d8afe58f48
+  m_EditorClassIdentifier: 
+  text: Yes, sure. What do you need?
+  isPlayerSpeaking: 1
+  children:
+  - 924a06e3-8646-4aac-92a3-e2832fd59b93
+  rect:
+    serializedVersion: 2
+    x: 240
+    y: 2
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and:
+    - or:
+      - predicate: HasQuest
+        parameters:
+        - Help for poor man
+        negate: 1
+--- !u!114 &8331083006829021963
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 8dc723a7-52fd-47d3-910b-acc433459c31
+  m_EditorClassIdentifier: 
+  text: I have no time, sorry.
+  isPlayerSpeaking: 1
+  children:
+  - 9985443f-9d40-4633-b203-ef8fad11690a
+  rect:
+    serializedVersion: 2
+    x: 242
+    y: 173
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and:
+    - or:
+      - predicate: HasQuest
+        parameters:
+        - Help for poor man
+        negate: 1

@@ -1,0 +1,536 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9190077740987604604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 14355cf3-edb1-4bc5-8c91-5e92ce8a8b2c
+  m_EditorClassIdentifier: 
+  text: Yes, it's me.
+  isPlayerSpeaking: 1
+  children:
+  - 2b786a89-dfed-4888-be4a-badccdf32549
+  rect:
+    serializedVersion: 2
+    x: 245
+    y: 172
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and:
+    - or:
+      - predicate: HasQuest
+        parameters:
+        - Revenge for the village
+        negate: 1
+--- !u!114 &-9103773375014549922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 1c0afe32-e057-4f2b-8fcf-ce4d56c18b4d
+  m_EditorClassIdentifier: 
+  text: Okay.
+  isPlayerSpeaking: 1
+  children:
+  - 264a6a26-a9e5-4fba-9964-a57237d6868b
+  rect:
+    serializedVersion: 2
+    x: 2916
+    y: 207.99998
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-7535928445978759731
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: d4143965-6c04-43d0-af14-12eb2f1738c1
+  m_EditorClassIdentifier: 
+  text: Hi, I know you! Umm... Ragnar, yes?
+  isPlayerSpeaking: 0
+  children:
+  - 14355cf3-edb1-4bc5-8c91-5e92ce8a8b2c
+  - 6bc04961-9553-4bbf-9f31-1e7930a8f3d4
+  - e9be5235-dd09-4df7-bda5-bc18bd4b2c6c
+  rect:
+    serializedVersion: 2
+    x: -5
+    y: 173
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-5717452692822017035
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: e9be5235-dd09-4df7-bda5-bc18bd4b2c6c
+  m_EditorClassIdentifier: 
+  text: Thanks a lot!
+  isPlayerSpeaking: 0
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 245
+    y: 310
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and:
+    - or:
+      - predicate: HasQuest
+        parameters:
+        - Revenge for the village
+        negate: 0
+    - or:
+      - predicate: CompletedQuest
+        parameters:
+        - Revenge for the village
+        negate: 0
+--- !u!114 &-4598778245790919411
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: a996e585-a8ff-48c4-bf76-c02938321a5e
+  m_EditorClassIdentifier: 
+  text: Okay, it got more suspicious.
+  isPlayerSpeaking: 1
+  children:
+  - 0e5eacd8-04e9-4f7d-a1ce-b8f525dd5137
+  rect:
+    serializedVersion: 2
+    x: 1477
+    y: 72
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-876609226901522347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 099803da-625a-422a-bfa3-ce2601324323
+  m_EditorClassIdentifier: 
+  text: 'I was tolding it to my friends, to some soldiers, but they''ve said that
+    I''m crazy. I want piece, I don''t want to kill somebody, so I left all knights. '
+  isPlayerSpeaking: 0
+  children:
+  - 7000910f-485e-4ea8-9571-2c81cc53a738
+  rect:
+    serializedVersion: 2
+    x: 1978
+    y: 72
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-396283999160289865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 0e5eacd8-04e9-4f7d-a1ce-b8f525dd5137
+  m_EditorClassIdentifier: 
+  text: No, no! I'm just bad at explaining. Two days ago i heard about you, about
+    your kindness. I realized that Soldiers have destroy the county of good people,
+    I repent...
+  isPlayerSpeaking: 0
+  children:
+  - 099803da-625a-422a-bfa3-ce2601324323
+  rect:
+    serializedVersion: 2
+    x: 1728
+    y: 72
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78a4e2c12110cff419d55832d9c35f8e, type: 3}
+  m_Name: Revenge for the village
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: -7535928445978759731}
+  - {fileID: -9190077740987604604}
+  - {fileID: 3754952504473344419}
+  - {fileID: 5665114257573451576}
+  - {fileID: 1294928789048714037}
+  - {fileID: 2439431027461363142}
+  - {fileID: 8362549067995785869}
+  - {fileID: -4598778245790919411}
+  - {fileID: -396283999160289865}
+  - {fileID: -876609226901522347}
+  - {fileID: 2429750190463028424}
+  - {fileID: 8500824537839289372}
+  - {fileID: 5132121803579571937}
+  - {fileID: -9103773375014549922}
+  - {fileID: 8490002450079219156}
+  - {fileID: 7081383667126810686}
+  - {fileID: 3099778555857198261}
+  - {fileID: -5717452692822017035}
+  newNodeOffset: {x: 250, y: 0}
+--- !u!114 &1294928789048714037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 360dc721-4f63-4c36-bb3d-3292a3967303
+  m_EditorClassIdentifier: 
+  text: Very suspicious, why I should believe you?
+  isPlayerSpeaking: 1
+  children:
+  - 3803a853-0697-4d3b-9f01-eb4bbf6de82b
+  rect:
+    serializedVersion: 2
+    x: 973
+    y: 75
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &2429750190463028424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 7000910f-485e-4ea8-9571-2c81cc53a738
+  m_EditorClassIdentifier: 
+  text: I understand you.
+  isPlayerSpeaking: 1
+  children:
+  - e140a42d-de57-4fe5-a577-a510a980b368
+  rect:
+    serializedVersion: 2
+    x: 2230
+    y: 71
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &2439431027461363142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: cfbe4a0e-1c52-4c23-aeaf-dbb5de687e8f
+  m_EditorClassIdentifier: 
+  text: I understand, continue.
+  isPlayerSpeaking: 1
+  children:
+  - abe7aa7c-8589-4f02-8077-87922653a757
+  rect:
+    serializedVersion: 2
+    x: 967
+    y: 250
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &3099778555857198261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 6bc04961-9553-4bbf-9f31-1e7930a8f3d4
+  m_EditorClassIdentifier: 
+  text: Good luck, Ragnar!
+  isPlayerSpeaking: 0
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 3334
+    y: 83.999985
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and:
+    - or:
+      - predicate: HasQuest
+        parameters:
+        - Revenge for the village
+        negate: 0
+    - or:
+      - predicate: CompletedQuest
+        parameters:
+        - Revenge for the village
+        negate: 1
+--- !u!114 &3754952504473344419
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 2b786a89-dfed-4888-be4a-badccdf32549
+  m_EditorClassIdentifier: 
+  text: All soldiers know about you, about your kindness...
+  isPlayerSpeaking: 0
+  children:
+  - 29e648dc-cba2-4b06-8cb2-bfcb8343f9ff
+  rect:
+    serializedVersion: 2
+    x: 495
+    y: 173
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &5132121803579571937
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 7009cd20-c0c6-49fc-aaa4-f05a9c75e94b
+  m_EditorClassIdentifier: 
+  text: Also you should kill the Boss of Soldiers if you want to go on. Do it, but
+    be careful.
+  isPlayerSpeaking: 0
+  children:
+  - 1c0afe32-e057-4f2b-8fcf-ce4d56c18b4d
+  rect:
+    serializedVersion: 2
+    x: 2705
+    y: 207.99997
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &5665114257573451576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 29e648dc-cba2-4b06-8cb2-bfcb8343f9ff
+  m_EditorClassIdentifier: 
+  text: I mean, I'm a good soldier, GOOD, understand?
+  isPlayerSpeaking: 0
+  children:
+  - 360dc721-4f63-4c36-bb3d-3292a3967303
+  - cfbe4a0e-1c52-4c23-aeaf-dbb5de687e8f
+  rect:
+    serializedVersion: 2
+    x: 742
+    y: 171
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &7081383667126810686
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: abe7aa7c-8589-4f02-8077-87922653a757
+  m_EditorClassIdentifier: 
+  text: Can you bring up my hat? It was stolen by one of the soldiers. This hat is
+    so important for me.
+  isPlayerSpeaking: 0
+  children:
+  - 7009cd20-c0c6-49fc-aaa4-f05a9c75e94b
+  rect:
+    serializedVersion: 2
+    x: 1229
+    y: 247
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &8362549067995785869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 3803a853-0697-4d3b-9f01-eb4bbf6de82b
+  m_EditorClassIdentifier: 
+  text: 'I was a bad man just a two days ago, I mean, I have never killed anybody
+    for all my live, but I talked to and had friends among these Soldiers. '
+  isPlayerSpeaking: 0
+  children:
+  - a996e585-a8ff-48c4-bf76-c02938321a5e
+  rect:
+    serializedVersion: 2
+    x: 1229
+    y: 73
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &8490002450079219156
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 264a6a26-a9e5-4fba-9964-a57237d6868b
+  m_EditorClassIdentifier: 
+  text: 'Oh, and... Speak with Andy on the other side of the river, please. I want
+    know that he is okay. Don''t be afraid, he will not attack you. '
+  isPlayerSpeaking: 0
+  children:
+  - 6bc04961-9553-4bbf-9f31-1e7930a8f3d4
+  rect:
+    serializedVersion: 2
+    x: 3121
+    y: 207.99998
+    width: 200
+    height: 100
+  onEnterAction: GiveQuest
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &8500824537839289372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: e140a42d-de57-4fe5-a577-a510a980b368
+  m_EditorClassIdentifier: 
+  text: I told them that I want to left and yesterday they have stolen my hat. Can
+    you find it? This hat is so important for me.
+  isPlayerSpeaking: 0
+  children:
+  - 7009cd20-c0c6-49fc-aaa4-f05a9c75e94b
+  rect:
+    serializedVersion: 2
+    x: 2474
+    y: 71
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []

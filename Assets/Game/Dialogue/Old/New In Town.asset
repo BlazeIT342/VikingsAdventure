@@ -1,0 +1,314 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8440618301130213831
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: b1e39606-034f-4621-9b27-e2744263df06
+  m_EditorClassIdentifier: 
+  text: 'You liar! There ain''t no Mr. Bowler, I made him up! '
+  isPlayerSpeaking: 0
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 1105
+    y: 686
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: Attack
+  condition:
+    and: []
+--- !u!114 &-7065699009455021557
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: f721cfc0-332a-484f-891d-7bb39728166d
+  m_EditorClassIdentifier: 
+  text: Did I say Newton? I actually from Springville
+  isPlayerSpeaking: 1
+  children:
+  - 41f9b064-de79-4aa0-9532-be83965a34c4
+  rect:
+    serializedVersion: 2
+    x: 853
+    y: 272
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-3219593215306639541
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: b77a6098-221b-4074-bd94-07ffe6db96ec
+  m_EditorClassIdentifier: 
+  text: ' I came here from Newton. '
+  isPlayerSpeaking: 1
+  children:
+  - 8ad295ed-dbb7-40c9-9879-2339bc83572b
+  rect:
+    serializedVersion: 2
+    x: 304
+    y: 354
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-1955946233085707489
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 41f9b064-de79-4aa0-9532-be83965a34c4
+  m_EditorClassIdentifier: 
+  text: 'Oh really? Then you must know Mr. Bowler. '
+  isPlayerSpeaking: 0
+  children:
+  - 25a15964-912d-41ae-b032-ceb05aa2ec3c
+  - a5c1d491-0515-490d-afe9-4b669082a8a2
+  rect:
+    serializedVersion: 2
+    x: 554
+    y: 681.99994
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-1382285976157388341
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: f12dbf90-9665-4f4e-9afe-c5d1f059fafc
+  m_EditorClassIdentifier: 
+  text: 'Don''t you worry about it. Say, do you have something to eat? I''m starving. '
+  isPlayerSpeaking: 0
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 1107
+    y: 491
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: TestObjective
+  condition:
+    and: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78a4e2c12110cff419d55832d9c35f8e, type: 3}
+  m_Name: New In Town
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: 1326657094361061186}
+  - {fileID: -3219593215306639541}
+  - {fileID: 3783045709991332831}
+  - {fileID: 8617816093415781450}
+  - {fileID: -1955946233085707489}
+  - {fileID: 2823638089089020034}
+  - {fileID: 3975670445166231730}
+  - {fileID: -8440618301130213831}
+  - {fileID: -1382285976157388341}
+  - {fileID: 5172473995232535948}
+  - {fileID: -7065699009455021557}
+  newNodeOffset: {x: 250, y: 0}
+--- !u!114 &1326657094361061186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: d1b69d05-5700-42a5-bafb-9cf9562ca58b
+  m_EditorClassIdentifier: 
+  text: 'You don''t look like you''re from around here. '
+  isPlayerSpeaking: 0
+  children:
+  - b77a6098-221b-4074-bd94-07ffe6db96ec
+  - 8d1e6ac5-af41-4290-a941-e7261a54c0f2
+  rect:
+    serializedVersion: 2
+    x: 36
+    y: 447
+    width: 200
+    height: 100
+  onEnterAction: TestRootEntry
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &2823638089089020034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 25a15964-912d-41ae-b032-ceb05aa2ec3c
+  m_EditorClassIdentifier: 
+  text: 'Mr. Bowler is a good friend of mine! '
+  isPlayerSpeaking: 1
+  children:
+  - b1e39606-034f-4621-9b27-e2744263df06
+  rect:
+    serializedVersion: 2
+    x: 849
+    y: 686
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &3783045709991332831
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 8d1e6ac5-af41-4290-a941-e7261a54c0f2
+  m_EditorClassIdentifier: 
+  text: I've lived here all my life!
+  isPlayerSpeaking: 1
+  children:
+  - 41f9b064-de79-4aa0-9532-be83965a34c4
+  rect:
+    serializedVersion: 2
+    x: 305
+    y: 589.99994
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &3975670445166231730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: a5c1d491-0515-490d-afe9-4b669082a8a2
+  m_EditorClassIdentifier: 
+  text: Who?
+  isPlayerSpeaking: 1
+  children:
+  - f12dbf90-9665-4f4e-9afe-c5d1f059fafc
+  rect:
+    serializedVersion: 2
+    x: 848
+    y: 565
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &5172473995232535948
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: bd320ad6-b154-4177-b03b-52e0aa5f25fa
+  m_EditorClassIdentifier: 
+  text: I haven't heard about any trouble
+  isPlayerSpeaking: 1
+  children:
+  - f12dbf90-9665-4f4e-9afe-c5d1f059fafc
+  rect:
+    serializedVersion: 2
+    x: 853
+    y: 437
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &8617816093415781450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 8ad295ed-dbb7-40c9-9879-2339bc83572b
+  m_EditorClassIdentifier: 
+  text: 'Newton, eh? I heard there''s trouble brewing down there. '
+  isPlayerSpeaking: 0
+  children:
+  - bd320ad6-b154-4177-b03b-52e0aa5f25fa
+  - f721cfc0-332a-484f-891d-7bb39728166d
+  rect:
+    serializedVersion: 2
+    x: 573
+    y: 354
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []

@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6352757272111973231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 586a4215-34ea-4e86-b36f-31ecd29f5e1b
+  m_EditorClassIdentifier: 
+  text: Hello Traveler!
+  isPlayerSpeaking: 0
+  children:
+  - 6fa03e3f-a3a3-4146-b9fd-fe38dc28e507
+  rect:
+    serializedVersion: 2
+    x: 76.99997
+    y: 195.99998
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-4734030610830374978
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 6fa03e3f-a3a3-4146-b9fd-fe38dc28e507
+  m_EditorClassIdentifier: 
+  text: How can I get to the Zelberg's house?
+  isPlayerSpeaking: 1
+  children:
+  - f4893647-bc5d-4920-b089-216c62a3679c
+  rect:
+    serializedVersion: 2
+    x: 310
+    y: 196.99998
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78a4e2c12110cff419d55832d9c35f8e, type: 3}
+  m_Name: Left
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: -6352757272111973231}
+  - {fileID: 8789909555842651035}
+  - {fileID: -4734030610830374978}
+  newNodeOffset: {x: 250, y: 0}
+--- !u!114 &8789909555842651035
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: f4893647-bc5d-4920-b089-216c62a3679c
+  m_EditorClassIdentifier: 
+  text: Go Left!
+  isPlayerSpeaking: 0
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 532
+    y: 193.99998
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []

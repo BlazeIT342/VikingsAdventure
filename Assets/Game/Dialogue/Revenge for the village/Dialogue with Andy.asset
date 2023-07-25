@@ -1,0 +1,252 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8949779653880457995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: f91b5f90-8585-4609-9985-3ae050a282f0
+  m_EditorClassIdentifier: 
+  text: Go away!
+  isPlayerSpeaking: 0
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 283
+    y: 334.99997
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and:
+    - or:
+      - predicate: HasQuest
+        parameters:
+        - Revenge for the village
+        negate: 0
+    - or:
+      - predicate: CompletedQuest
+        parameters:
+        - Revenge for the village
+        negate: 0
+--- !u!114 &-4759233226215570456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 79c0485a-7c1f-490f-8835-be5ddd806719
+  m_EditorClassIdentifier: 
+  text: 'Your brother told me to find out if you''re okay. He is normal too. '
+  isPlayerSpeaking: 1
+  children:
+  - 2af9e6f8-b278-408c-a303-97e188e35604
+  rect:
+    serializedVersion: 2
+    x: 783
+    y: 204.99998
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-3815112011578524475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 90bfa78d-0a2f-4a5a-a694-60be91bd5725
+  m_EditorClassIdentifier: 
+  text: Bye.
+  isPlayerSpeaking: 1
+  children:
+  - a5f08f4d-bbfb-4d10-93ce-c93d963d9d55
+  rect:
+    serializedVersion: 2
+    x: 1283
+    y: 205.99998
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: CompleteObjective
+  condition:
+    and: []
+--- !u!114 &-3810726018701530750
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: bf7c33a7-68a1-4dd3-87ed-c11b1718c308
+  m_EditorClassIdentifier: 
+  text: Oh! That's my younger brother! What did you do with him, viking?!
+  isPlayerSpeaking: 0
+  children:
+  - 79c0485a-7c1f-490f-8835-be5ddd806719
+  rect:
+    serializedVersion: 2
+    x: 533
+    y: 205.99998
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-711892038055900556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 2af9e6f8-b278-408c-a303-97e188e35604
+  m_EditorClassIdentifier: 
+  text: You scared me! I thought, you've killed him, ha! If you can, say him that
+    I'm good too. Oh,and... I miss him.
+  isPlayerSpeaking: 0
+  children:
+  - 90bfa78d-0a2f-4a5a-a694-60be91bd5725
+  rect:
+    serializedVersion: 2
+    x: 1033
+    y: 205.99998
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78a4e2c12110cff419d55832d9c35f8e, type: 3}
+  m_Name: Dialogue with Andy
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: 160858690890578974}
+  - {fileID: 2043966436333893512}
+  - {fileID: -3810726018701530750}
+  - {fileID: -4759233226215570456}
+  - {fileID: -711892038055900556}
+  - {fileID: -3815112011578524475}
+  - {fileID: 351455784824426313}
+  - {fileID: -8949779653880457995}
+  newNodeOffset: {x: 250, y: 0}
+--- !u!114 &160858690890578974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: c82abb91-2c00-4ea3-982a-c3eeafbfb88a
+  m_EditorClassIdentifier: 
+  text: Do I know you?
+  isPlayerSpeaking: 0
+  children:
+  - 7bb4a07d-f27c-4d09-82ab-618fec44479b
+  - f91b5f90-8585-4609-9985-3ae050a282f0
+  rect:
+    serializedVersion: 2
+    x: 33
+    y: 205.99998
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &351455784824426313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: a5f08f4d-bbfb-4d10-93ce-c93d963d9d55
+  m_EditorClassIdentifier: 
+  text: Now I'll pretend I didn't see you, go on.
+  isPlayerSpeaking: 0
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 1496
+    y: 72.999985
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &2043966436333893512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 7bb4a07d-f27c-4d09-82ab-618fec44479b
+  m_EditorClassIdentifier: 
+  text: Rodriguez...
+  isPlayerSpeaking: 1
+  children:
+  - bf7c33a7-68a1-4dd3-87ed-c11b1718c308
+  rect:
+    serializedVersion: 2
+    x: 283
+    y: 205.99998
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and:
+    - or:
+      - predicate: HasQuest
+        parameters:
+        - Revenge for the village
+        negate: 0
+    - or:
+      - predicate: CompletedQuest
+        parameters:
+        - Revenge for the village
+        negate: 1

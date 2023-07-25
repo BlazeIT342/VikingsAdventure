@@ -1,0 +1,316 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8352033235406419594
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 2a640687-1ef6-4b05-bc30-10182b109cf4
+  m_EditorClassIdentifier: 
+  text: Are you sure?
+  isPlayerSpeaking: 1
+  children:
+  - 78d5b636-1f76-4001-9756-bf7c14b82896
+  rect:
+    serializedVersion: 2
+    x: 1523
+    y: 162
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-4829709095175229361
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 78d5b636-1f76-4001-9756-bf7c14b82896
+  m_EditorClassIdentifier: 
+  text: Sure, yeah.
+  isPlayerSpeaking: 0
+  children:
+  - 0842f3ae-651f-4849-92fb-39020cb27183
+  rect:
+    serializedVersion: 2
+    x: 1773
+    y: 162
+    width: 200
+    height: 100
+  onEnterAction: GiveQuest
+  onExitAction: 
+  condition:
+    and:
+    - or:
+      - predicate: HasQuest
+        parameters:
+        - Beat up hooligans
+        negate: 1
+--- !u!114 &-4761290398753454242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 0842f3ae-651f-4849-92fb-39020cb27183
+  m_EditorClassIdentifier: 
+  text: Be careful
+  isPlayerSpeaking: 0
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 1995
+    y: 23
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and:
+    - or:
+      - predicate: HasQuest
+        parameters:
+        - Beat up hooligans
+        negate: 0
+    - or:
+      - predicate: CompletedQuest
+        parameters:
+        - Beat up hooligans
+        negate: 1
+--- !u!114 &-4292373856153109360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 55e6ac1e-b92d-4c2a-bb63-a471ef02dc90
+  m_EditorClassIdentifier: 
+  text: Please protect him!
+  isPlayerSpeaking: 0
+  children:
+  - ad64d8a1-cc17-4383-a899-6cfb1b76c101
+  rect:
+    serializedVersion: 2
+    x: 774
+    y: 161
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-2637177975070115255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 4ee74ecf-bcd9-4978-adf2-59e1e72159a9
+  m_EditorClassIdentifier: 
+  text: I'm listening to you
+  isPlayerSpeaking: 1
+  children:
+  - 286f413e-2efe-441e-a26b-d19eb663d53e
+  rect:
+    serializedVersion: 2
+    x: 289
+    y: 162
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and:
+    - or:
+      - predicate: HasQuest
+        parameters:
+        - Beat up hooligans
+        negate: 1
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78a4e2c12110cff419d55832d9c35f8e, type: 3}
+  m_Name: Beat up hooligans
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: 8353147188598251698}
+  - {fileID: -2637177975070115255}
+  - {fileID: 5841978836557582807}
+  - {fileID: -4292373856153109360}
+  - {fileID: 4255260261922303905}
+  - {fileID: 6356847281654172209}
+  - {fileID: -8352033235406419594}
+  - {fileID: -4829709095175229361}
+  - {fileID: -4761290398753454242}
+  - {fileID: 5190497164742592693}
+  newNodeOffset: {x: 250, y: 0}
+--- !u!114 &4255260261922303905
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: ad64d8a1-cc17-4383-a899-6cfb1b76c101
+  m_EditorClassIdentifier: 
+  text: What's in it for me?
+  isPlayerSpeaking: 1
+  children:
+  - 6168cd21-791b-44bf-9088-f3715e1a6da2
+  rect:
+    serializedVersion: 2
+    x: 1023
+    y: 162
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &5190497164742592693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 93a223dd-7604-49e7-9c3f-27da60626db5
+  m_EditorClassIdentifier: 
+  text: Thanks for the help!
+  isPlayerSpeaking: 0
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 280
+    y: 297
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and:
+    - or:
+      - predicate: HasQuest
+        parameters:
+        - Beat up hooligans
+        negate: 0
+    - or:
+      - predicate: CompletedQuest
+        parameters:
+        - Beat up hooligans
+        negate: 0
+--- !u!114 &5841978836557582807
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 286f413e-2efe-441e-a26b-d19eb663d53e
+  m_EditorClassIdentifier: 
+  text: My friend drake was attacked by hooligans
+  isPlayerSpeaking: 0
+  children:
+  - 55e6ac1e-b92d-4c2a-bb63-a471ef02dc90
+  rect:
+    serializedVersion: 2
+    x: 539
+    y: 162
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &6356847281654172209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 6168cd21-791b-44bf-9088-f3715e1a6da2
+  m_EditorClassIdentifier: 
+  text: Drake will pay you.
+  isPlayerSpeaking: 0
+  children:
+  - 2a640687-1ef6-4b05-bc30-10182b109cf4
+  rect:
+    serializedVersion: 2
+    x: 1273
+    y: 162
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &8353147188598251698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: bc1c81a2-c986-4f4a-9d24-c5bb9315ce06
+  m_EditorClassIdentifier: 
+  text: Ps hey!
+  isPlayerSpeaking: 0
+  children:
+  - 4ee74ecf-bcd9-4978-adf2-59e1e72159a9
+  - 93a223dd-7604-49e7-9c3f-27da60626db5
+  - 0842f3ae-651f-4849-92fb-39020cb27183
+  rect:
+    serializedVersion: 2
+    x: 39
+    y: 162
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []

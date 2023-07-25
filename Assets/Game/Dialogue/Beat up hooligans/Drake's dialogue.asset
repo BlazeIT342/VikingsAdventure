@@ -1,0 +1,318 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8125239893404655270
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 8e15a984-d183-46fc-83ca-20bcb272969c
+  m_EditorClassIdentifier: 
+  text: Let me pay you.
+  isPlayerSpeaking: 0
+  children:
+  - ddb50962-c92b-4b7c-bcb3-109f3df74497
+  rect:
+    serializedVersion: 2
+    x: 286
+    y: 156
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and:
+    - or:
+      - predicate: CompletedQuest
+        parameters:
+        - Beat up hooligans
+        negate: 1
+--- !u!114 &-6198448529025980960
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 14ec460b-69a0-4220-97f8-190d3ab95b96
+  m_EditorClassIdentifier: 
+  text: Ahh, don't hit me.
+  isPlayerSpeaking: 0
+  children:
+  - 6214e5d3-0b61-408a-8867-5b49ec1c27b2
+  rect:
+    serializedVersion: 2
+    x: 1036
+    y: 157
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-5638950437012168924
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: d0b65270-9676-4b52-9320-4121de57ef42
+  m_EditorClassIdentifier: 
+  text: Thank you, too.
+  isPlayerSpeaking: 0
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 2074
+    y: 245.99997
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-4531146093533615797
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: ddb50962-c92b-4b7c-bcb3-109f3df74497
+  m_EditorClassIdentifier: 
+  text: Oops, I think I left the money at work.
+  isPlayerSpeaking: 0
+  children:
+  - 616d9524-6e4b-42d8-852e-b839b96c67eb
+  - f9686392-f5b1-4e7f-b76e-81ba4fdf6c62
+  rect:
+    serializedVersion: 2
+    x: 536
+    y: 157
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-3781502684516581293
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: da0a4109-cbf4-48cf-98d4-942450982912
+  m_EditorClassIdentifier: 
+  text: Take it.
+  isPlayerSpeaking: 0
+  children:
+  - c6ac1fdf-b201-4002-9a97-db6389e5dd81
+  rect:
+    serializedVersion: 2
+    x: 1574
+    y: 245.99997
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: CompleteObjective
+  condition:
+    and: []
+--- !u!114 &-3762690566121297758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 6214e5d3-0b61-408a-8867-5b49ec1c27b2
+  m_EditorClassIdentifier: 
+  text: Here's everything I have.
+  isPlayerSpeaking: 0
+  children:
+  - da0a4109-cbf4-48cf-98d4-942450982912
+  rect:
+    serializedVersion: 2
+    x: 1286
+    y: 157
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-1475834758604226866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: b943dc8a-1eee-4381-b6d6-da3d35bf52e4
+  m_EditorClassIdentifier: 
+  text: Thank you for saving me.
+  isPlayerSpeaking: 0
+  children:
+  - 8e15a984-d183-46fc-83ca-20bcb272969c
+  rect:
+    serializedVersion: 2
+    x: 35
+    y: 157
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-1143584213478572168
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 616d9524-6e4b-42d8-852e-b839b96c67eb
+  m_EditorClassIdentifier: 
+  text: You're a scammer!
+  isPlayerSpeaking: 1
+  children:
+  - 14ec460b-69a0-4220-97f8-190d3ab95b96
+  rect:
+    serializedVersion: 2
+    x: 786
+    y: 157
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78a4e2c12110cff419d55832d9c35f8e, type: 3}
+  m_Name: Drake's dialogue
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: -1475834758604226866}
+  - {fileID: -8125239893404655270}
+  - {fileID: -4531146093533615797}
+  - {fileID: -1143584213478572168}
+  - {fileID: 4249588048533806734}
+  - {fileID: 7229714712711859236}
+  - {fileID: -6198448529025980960}
+  - {fileID: -3762690566121297758}
+  - {fileID: -3781502684516581293}
+  - {fileID: 6813292751881040216}
+  - {fileID: -5638950437012168924}
+  newNodeOffset: {x: 250, y: 0}
+--- !u!114 &4249588048533806734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: f9686392-f5b1-4e7f-b76e-81ba4fdf6c62
+  m_EditorClassIdentifier: 
+  text: No big deal.
+  isPlayerSpeaking: 1
+  children:
+  - f88c9cbb-5e3f-4f6b-936f-dfd1f307a494
+  rect:
+    serializedVersion: 2
+    x: 786
+    y: 263
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &6813292751881040216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: c6ac1fdf-b201-4002-9a97-db6389e5dd81
+  m_EditorClassIdentifier: 
+  text: Wow, thank you.
+  isPlayerSpeaking: 1
+  children:
+  - d0b65270-9676-4b52-9320-4121de57ef42
+  rect:
+    serializedVersion: 2
+    x: 1824
+    y: 245.99997
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &7229714712711859236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: f88c9cbb-5e3f-4f6b-936f-dfd1f307a494
+  m_EditorClassIdentifier: 
+  text: But I have some potions with me, let me give them to you as a reward.
+  isPlayerSpeaking: 0
+  children:
+  - da0a4109-cbf4-48cf-98d4-942450982912
+  rect:
+    serializedVersion: 2
+    x: 1036
+    y: 263
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []

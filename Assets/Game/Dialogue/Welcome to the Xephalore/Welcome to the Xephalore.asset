@@ -1,0 +1,203 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-3950120464704673983
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 6f6314f4-1ff0-4d5e-b0a4-09d954720a87
+  m_EditorClassIdentifier: 
+  text: Great job, Ragnar!
+  isPlayerSpeaking: 0
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 248
+    y: 233.99998
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and:
+    - or:
+      - predicate: HasQuest
+        parameters:
+        - Welcome to the Xephalore
+        negate: 0
+    - or:
+      - predicate: CompletedQuest
+        parameters:
+        - Welcome to the Xephalore
+        negate: 0
+--- !u!114 &-812037614746712965
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 511524bc-4909-49bd-b1db-128459b436c5
+  m_EditorClassIdentifier: 
+  text: Hei! Welcome to the Xephalore!
+  isPlayerSpeaking: 0
+  children:
+  - 2297a344-f14a-46bb-97c4-89f398ac9bea
+  - 6f6314f4-1ff0-4d5e-b0a4-09d954720a87
+  - 65035b56-80b6-4e2d-a418-89fa822d4cc1
+  rect:
+    serializedVersion: 2
+    x: 29
+    y: 120
+    width: 200
+    height: 100
+  onEnterAction: DeactivatePortal
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78a4e2c12110cff419d55832d9c35f8e, type: 3}
+  m_Name: Welcome to the Xephalore
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: -812037614746712965}
+  - {fileID: 6923411511202259002}
+  - {fileID: 3523254021092181747}
+  - {fileID: 6758692983152626513}
+  - {fileID: 8222003148156384968}
+  - {fileID: -3950120464704673983}
+  newNodeOffset: {x: 250, y: 0}
+--- !u!114 &3523254021092181747
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: b14675d4-0ffa-4706-a175-7a28c1a0ffeb
+  m_EditorClassIdentifier: 
+  text: Are you ready, Ragnar?
+  isPlayerSpeaking: 0
+  children:
+  - ab74c7b4-be21-4fd9-998f-bd0707efd94f
+  rect:
+    serializedVersion: 2
+    x: 488
+    y: 120
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &6758692983152626513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: ab74c7b4-be21-4fd9-998f-bd0707efd94f
+  m_EditorClassIdentifier: 
+  text: Sure!
+  isPlayerSpeaking: 1
+  children:
+  - 65035b56-80b6-4e2d-a418-89fa822d4cc1
+  rect:
+    serializedVersion: 2
+    x: 695
+    y: 119
+    width: 200
+    height: 100
+  onEnterAction: GiveQuest
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &6923411511202259002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 2297a344-f14a-46bb-97c4-89f398ac9bea
+  m_EditorClassIdentifier: 
+  text: I would like to give you a little trip around our Village.
+  isPlayerSpeaking: 0
+  children:
+  - b14675d4-0ffa-4706-a175-7a28c1a0ffeb
+  rect:
+    serializedVersion: 2
+    x: 261
+    y: 120
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and:
+    - or:
+      - predicate: HasQuest
+        parameters:
+        - Welcome to the Xephalore
+        negate: 1
+--- !u!114 &8222003148156384968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 65035b56-80b6-4e2d-a418-89fa822d4cc1
+  m_EditorClassIdentifier: 
+  text: 'You should speak with Hlif, Bjorn and Einarr who will guide you. '
+  isPlayerSpeaking: 0
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 968
+    y: -7
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and:
+    - or:
+      - predicate: HasQuest
+        parameters:
+        - Welcome to the Xephalore
+        negate: 0
+    - or:
+      - predicate: CompletedQuest
+        parameters:
+        - Welcome to the Xephalore
+        negate: 1

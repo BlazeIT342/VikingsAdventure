@@ -1,0 +1,354 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8680378016516845799
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 60111daf-6302-4034-8243-7047a2178e3b
+  m_EditorClassIdentifier: 
+  text: Well you are a bastard...
+  isPlayerSpeaking: 1
+  children:
+  - e0823ebc-3f0f-462a-980c-9a5237fac306
+  rect:
+    serializedVersion: 2
+    x: 1030
+    y: 350
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-5042957787614056403
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 88cf8a7e-3431-44dc-b5e9-ca85b7641227
+  m_EditorClassIdentifier: 
+  text: You really did it? Lol, I just jocked. I don't need it. Take it, if you want.
+  isPlayerSpeaking: 0
+  children:
+  - 60111daf-6302-4034-8243-7047a2178e3b
+  rect:
+    serializedVersion: 2
+    x: 780
+    y: 350
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-4037578981604569732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 86d15be4-4868-4e6e-9250-9b1e25940fc2
+  m_EditorClassIdentifier: 
+  text: Meh.. You seemed kind.
+  isPlayerSpeaking: 0
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 778
+    y: 232.99998
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-793067294160036999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 503f21e7-c4af-466e-a059-b3befa09545a
+  m_EditorClassIdentifier: 
+  text: Okay, it's in the graveyard.
+  isPlayerSpeaking: 0
+  children:
+  - 56ae6fec-2112-498d-985e-6f09ffd63092
+  rect:
+    serializedVersion: 2
+    x: 780
+    y: 64
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78a4e2c12110cff419d55832d9c35f8e, type: 3}
+  m_Name: Double loss
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: 9060087909776958383}
+  - {fileID: 7558730157934884296}
+  - {fileID: 5619153211438148416}
+  - {fileID: 1546844349897751163}
+  - {fileID: -793067294160036999}
+  - {fileID: 3951456206558791920}
+  - {fileID: 1732284756628306281}
+  - {fileID: -4037578981604569732}
+  - {fileID: 9105059972787312693}
+  - {fileID: -5042957787614056403}
+  - {fileID: -8680378016516845799}
+  - {fileID: 1882926361929450023}
+  newNodeOffset: {x: 250, y: 0}
+--- !u!114 &1546844349897751163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: b5b73bd3-6ba2-41c8-948f-c3730af7304d
+  m_EditorClassIdentifier: 
+  text: Sure, I'll do it.
+  isPlayerSpeaking: 1
+  children:
+  - 503f21e7-c4af-466e-a059-b3befa09545a
+  rect:
+    serializedVersion: 2
+    x: 530
+    y: 64
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &1732284756628306281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: c39f125b-e3a4-456f-9379-c72f3d4e08bb
+  m_EditorClassIdentifier: 
+  text: Thanks!
+  isPlayerSpeaking: 0
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 1280
+    y: 64
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &1882926361929450023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: e0823ebc-3f0f-462a-980c-9a5237fac306
+  m_EditorClassIdentifier: 
+  text: Guys, did you hear it? This man went to the graveyard for the clocks!
+  isPlayerSpeaking: 0
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 1279
+    y: 350
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &3951456206558791920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 56ae6fec-2112-498d-985e-6f09ffd63092
+  m_EditorClassIdentifier: 
+  text: Umm...
+  isPlayerSpeaking: 1
+  children:
+  - c39f125b-e3a4-456f-9379-c72f3d4e08bb
+  rect:
+    serializedVersion: 2
+    x: 1030
+    y: 63
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: GiveQuest
+  condition:
+    and:
+    - or:
+      - predicate: HasQuest
+        parameters:
+        - Double loss
+        negate: 1
+--- !u!114 &5619153211438148416
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 490ec2b6-377a-4cdc-8835-5f0bb8ad01b4
+  m_EditorClassIdentifier: 
+  text: No, why I should help you?..
+  isPlayerSpeaking: 1
+  children:
+  - 86d15be4-4868-4e6e-9250-9b1e25940fc2
+  rect:
+    serializedVersion: 2
+    x: 528
+    y: 232.99998
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &7558730157934884296
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: c1aafdf4-98bc-4538-86b8-5e3dbf386ff5
+  m_EditorClassIdentifier: 
+  text: Can you find my granny's clocks? The soldiers don't allow me to take it.
+  isPlayerSpeaking: 0
+  children:
+  - 490ec2b6-377a-4cdc-8835-5f0bb8ad01b4
+  - b5b73bd3-6ba2-41c8-948f-c3730af7304d
+  - 2b41d9b9-0c73-44b9-b545-17e2038ce484
+  rect:
+    serializedVersion: 2
+    x: 282
+    y: 158
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &9060087909776958383
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 91ccc2e8-8980-44fa-b2b6-2dde8993b9b1
+  m_EditorClassIdentifier: 
+  text: Hi, I need your help.
+  isPlayerSpeaking: 0
+  children:
+  - c1aafdf4-98bc-4538-86b8-5e3dbf386ff5
+  rect:
+    serializedVersion: 2
+    x: 33
+    y: 158
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &9105059972787312693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 2b41d9b9-0c73-44b9-b545-17e2038ce484
+  m_EditorClassIdentifier: 
+  text: I've found it!
+  isPlayerSpeaking: 1
+  children:
+  - 88cf8a7e-3431-44dc-b5e9-ca85b7641227
+  rect:
+    serializedVersion: 2
+    x: 530
+    y: 350
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: CompleteObjective
+  condition:
+    and:
+    - or:
+      - predicate: HasInventoryItem
+        parameters:
+        - 1a00a52e-27c4-4878-a56a-fecbd009f1b2
+        negate: 0
+    - or:
+      - predicate: CompletedQuest
+        parameters:
+        - Double loss
+        negate: 1

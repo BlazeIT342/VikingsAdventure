@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ab3b44f2b464b24fbbaa44c8227f535, type: 3}
+  m_Name: Find the missing boots
+  m_EditorClassIdentifier: 
+  objectives:
+  - reference: first
+    description: Find the missing boots in the nearby forest
+    usesCondition: 1
+    completionCondition:
+      and:
+      - or:
+        - predicate: HasInventoryItem
+          parameters:
+          - 0f1428e0-042a-4f11-87b2-605c4e4592fe
+          negate: 0
+  rewards:
+  - number: 200
+    item: {fileID: 11400000, guid: 253077a3dc85042448b51d9c2f7a6393, type: 2}

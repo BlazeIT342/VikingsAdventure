@@ -1,0 +1,285 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7232931021439602795
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 57d5bd6d-a0f7-4ba5-b671-3db2f06365c4
+  m_EditorClassIdentifier: 
+  text: Please free three districts of our city from the guards
+  isPlayerSpeaking: 0
+  children:
+  - 56309766-faf2-438c-9620-803364e262c8
+  rect:
+    serializedVersion: 2
+    x: 1207
+    y: 204.99998
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: GiveQuest
+  condition:
+    and: []
+--- !u!114 &-4457166977458820772
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: b420eff2-2a77-4813-91e1-222a01030ea5
+  m_EditorClassIdentifier: 
+  text: Hey, do you know who's in charge here?
+  isPlayerSpeaking: 1
+  children:
+  - 0f95be94-5d26-454c-81d2-eeae3dd96363
+  rect:
+    serializedVersion: 2
+    x: 301
+    y: 220.99998
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and:
+    - or:
+      - predicate: HasQuest
+        parameters:
+        - Help for the citizens
+        negate: 1
+--- !u!114 &-2482447532105428936
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 427f4306-5f4d-407b-b22a-e9dd96ab607d
+  m_EditorClassIdentifier: 
+  text: Good evening Traveler!
+  isPlayerSpeaking: 0
+  children:
+  - b420eff2-2a77-4813-91e1-222a01030ea5
+  - 0601cd88-e9d8-427c-a2fe-55bc2fde18eb
+  - 09918528-6365-435d-9874-d9871381eb41
+  rect:
+    serializedVersion: 2
+    x: 61
+    y: 211.99998
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-1509386284166766409
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 0f95be94-5d26-454c-81d2-eeae3dd96363
+  m_EditorClassIdentifier: 
+  text: No, I don't know, but I know you
+  isPlayerSpeaking: 0
+  children:
+  - 9fd155e8-20df-4ea0-9be7-c51e07226848
+  rect:
+    serializedVersion: 2
+    x: 532
+    y: 216.99998
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-723235353285697837
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 0601cd88-e9d8-427c-a2fe-55bc2fde18eb
+  m_EditorClassIdentifier: 
+  text: Now you are the real authority of these areas
+  isPlayerSpeaking: 0
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 303
+    y: 345.99997
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and:
+    - or:
+      - predicate: HasQuest
+        parameters:
+        - Help for the citizens
+        negate: 0
+    - or:
+      - predicate: CompletedQuest
+        parameters:
+        - Help for the citizens
+        negate: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78a4e2c12110cff419d55832d9c35f8e, type: 3}
+  m_Name: Help for the citizens
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: -2482447532105428936}
+  - {fileID: 8218324506361109368}
+  - {fileID: 4547149446051037344}
+  - {fileID: -7232931021439602795}
+  - {fileID: 8287064130297234593}
+  - {fileID: 3546875011762637432}
+  - {fileID: -4457166977458820772}
+  - {fileID: -1509386284166766409}
+  - {fileID: -723235353285697837}
+  newNodeOffset: {x: 250, y: 0}
+--- !u!114 &3546875011762637432
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 09918528-6365-435d-9874-d9871381eb41
+  m_EditorClassIdentifier: 
+  text: Good Luck!
+  isPlayerSpeaking: 0
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 1691
+    y: 112.999985
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and:
+    - or:
+      - predicate: HasQuest
+        parameters:
+        - Help for the citizens
+        negate: 0
+    - or:
+      - predicate: CompletedQuest
+        parameters:
+        - Help for the citizens
+        negate: 1
+--- !u!114 &4547149446051037344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 33324589-6cae-451a-8e46-fbdb292a03ad
+  m_EditorClassIdentifier: 
+  text: Yes, I came to save you
+  isPlayerSpeaking: 1
+  children:
+  - 57d5bd6d-a0f7-4ba5-b671-3db2f06365c4
+  rect:
+    serializedVersion: 2
+    x: 1002
+    y: 209.99998
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &8218324506361109368
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 9fd155e8-20df-4ea0-9be7-c51e07226848
+  m_EditorClassIdentifier: 
+  text: I see that you are not from here. Probably everyone is talking about you,
+    you are our savior!
+  isPlayerSpeaking: 0
+  children:
+  - 33324589-6cae-451a-8e46-fbdb292a03ad
+  rect:
+    serializedVersion: 2
+    x: 766
+    y: 208.99998
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &8287064130297234593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 56309766-faf2-438c-9620-803364e262c8
+  m_EditorClassIdentifier: 
+  text: Will be done!
+  isPlayerSpeaking: 1
+  children:
+  - 09918528-6365-435d-9874-d9871381eb41
+  rect:
+    serializedVersion: 2
+    x: 1445
+    y: 207.99998
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []

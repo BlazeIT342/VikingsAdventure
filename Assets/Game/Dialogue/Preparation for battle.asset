@@ -1,0 +1,370 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8727631819055108178
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: c385ae93-e84b-450d-9929-fd2052e4d977
+  m_EditorClassIdentifier: 
+  text: Hello, Ragnar!
+  isPlayerSpeaking: 0
+  children:
+  - 2e21205e-8abf-4bd7-a65d-e367901a55ab
+  - fb0c6b34-aac0-46b6-9b58-07af3034010e
+  - 33f97877-81bc-4f3a-a42d-20ea5d54fb7e
+  rect:
+    serializedVersion: 2
+    x: 12
+    y: 157
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-8126399358490063689
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 2c71d6a3-6514-4716-8dfe-f815adcdfe5e
+  m_EditorClassIdentifier: 
+  text: Okay, thanks for the advice, where can I find them?
+  isPlayerSpeaking: 1
+  children:
+  - c44805fc-4e10-40ae-8d8c-94b1e69b17b5
+  rect:
+    serializedVersion: 2
+    x: 1522
+    y: 157
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-6424232941903208306
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 733a12bf-394a-4315-8fc6-ad93034b14ef
+  m_EditorClassIdentifier: 
+  text: His fortress is located in the southwest.
+  isPlayerSpeaking: 0
+  children:
+  - 02ea5b79-f320-412c-9683-e9e782854301
+  rect:
+    serializedVersion: 2
+    x: 1022
+    y: 157
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-5829280877572478436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 6576f31b-4121-4632-a8da-71cd9ff438a0
+  m_EditorClassIdentifier: 
+  text: Thank you for the information!
+  isPlayerSpeaking: 1
+  children:
+  - fb0c6b34-aac0-46b6-9b58-07af3034010e
+  rect:
+    serializedVersion: 2
+    x: 2024
+    y: 157
+    width: 200
+    height: 100
+  onEnterAction: GiveQuest
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-3473314203165437984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 02ea5b79-f320-412c-9683-e9e782854301
+  m_EditorClassIdentifier: 
+  text: 'I would advise you not to go to him now, because he is very strong. Kill
+    his best men first: the chief knight of the royal guard and the commander-in-chief
+    of the army.'
+  isPlayerSpeaking: 0
+  children:
+  - 2c71d6a3-6514-4716-8dfe-f815adcdfe5e
+  rect:
+    serializedVersion: 2
+    x: 1272
+    y: 156
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-2718387927589634488
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 33f97877-81bc-4f3a-a42d-20ea5d54fb7e
+  m_EditorClassIdentifier: 
+  text: I wish you good luck in the boss fight, now you are ready
+  isPlayerSpeaking: 0
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 260
+    y: 316
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and:
+    - or:
+      - predicate: HasQuest
+        parameters:
+        - Preparation for battle
+        negate: 0
+    - or:
+      - predicate: CompletedQuest
+        parameters:
+        - Preparation for battle
+        negate: 0
+--- !u!114 &-1741205510254527785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 12a6715b-0b56-4698-9512-c2db3ec84e18
+  m_EditorClassIdentifier: 
+  text: Let me tell you about our king.
+  isPlayerSpeaking: 0
+  children:
+  - 733a12bf-394a-4315-8fc6-ad93034b14ef
+  rect:
+    serializedVersion: 2
+    x: 772
+    y: 156
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78a4e2c12110cff419d55832d9c35f8e, type: 3}
+  m_Name: Preparation for battle
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: -8727631819055108178}
+  - {fileID: 5614124820952215565}
+  - {fileID: 5355442211073263517}
+  - {fileID: 3247838747608994982}
+  - {fileID: -1741205510254527785}
+  - {fileID: -6424232941903208306}
+  - {fileID: -3473314203165437984}
+  - {fileID: -8126399358490063689}
+  - {fileID: 8026709117661309156}
+  - {fileID: -5829280877572478436}
+  - {fileID: 8449215526317646178}
+  - {fileID: -2718387927589634488}
+  newNodeOffset: {x: 250, y: 0}
+--- !u!114 &3247838747608994982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: a1c12f4f-4c28-40ba-8b63-76be17d5d4db
+  m_EditorClassIdentifier: 
+  text: Could you tell me who's in charge here?
+  isPlayerSpeaking: 1
+  children:
+  - 12a6715b-0b56-4698-9512-c2db3ec84e18
+  rect:
+    serializedVersion: 2
+    x: 510
+    y: 291
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &5355442211073263517
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 65d2d6c9-eed7-41fe-95d1-e7e5c4f5db0b
+  m_EditorClassIdentifier: 
+  text: Yes, it was me!
+  isPlayerSpeaking: 1
+  children:
+  - 12a6715b-0b56-4698-9512-c2db3ec84e18
+  rect:
+    serializedVersion: 2
+    x: 512
+    y: 157
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &5614124820952215565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: 2e21205e-8abf-4bd7-a65d-e367901a55ab
+  m_EditorClassIdentifier: 
+  text: I heard that you killed the castle gate guard.
+  isPlayerSpeaking: 0
+  children:
+  - 65d2d6c9-eed7-41fe-95d1-e7e5c4f5db0b
+  - a1c12f4f-4c28-40ba-8b63-76be17d5d4db
+  rect:
+    serializedVersion: 2
+    x: 262
+    y: 157
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and:
+    - or:
+      - predicate: HasQuest
+        parameters:
+        - Preparation for battle
+        negate: 1
+--- !u!114 &8026709117661309156
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: c44805fc-4e10-40ae-8d8c-94b1e69b17b5
+  m_EditorClassIdentifier: 
+  text: Good question, as far as I remember, to find the chief knight you have to
+    go on the right road, and the commander-in-chief of the army lives near the edge
+    of the castle.
+  isPlayerSpeaking: 0
+  children:
+  - 6576f31b-4121-4632-a8da-71cd9ff438a0
+  rect:
+    serializedVersion: 2
+    x: 1774
+    y: 158
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: CompleteObjective
+  condition:
+    and: []
+--- !u!114 &8449215526317646178
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedac82301d91af4ca220b545bbb1ed9, type: 3}
+  m_Name: fb0c6b34-aac0-46b6-9b58-07af3034010e
+  m_EditorClassIdentifier: 
+  text: Good luck, Ragnar!
+  isPlayerSpeaking: 0
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 2275
+    y: 63
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and:
+    - or:
+      - predicate: HasQuest
+        parameters:
+        - Preparation for battle
+        negate: 0
+    - or:
+      - predicate: CompletedQuest
+        parameters:
+        - Preparation for battle
+        negate: 1

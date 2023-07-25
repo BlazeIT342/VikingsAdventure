@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 720780a6586b9ed4f9c04b0621eb70a1, type: 3}
+  m_Name: Sword
+  m_EditorClassIdentifier: 
+  itemID: 41c36d44-938f-45b5-8e67-706354adbb81
+  displayName: Iron Sword
+  description: 'Stab your enemies in the back, like the coward you are!
+
+    Requires:
+    Strength 6'
+  icon: {fileID: 21300000, guid: bdf871950f04ef24db654ebc56e078f0, type: 3}
+  pickup: {fileID: 6406988398823382775, guid: cd261d4420e093d43a1ee5b144da4acc, type: 3}
+  stackable: 0
+  price: 600
+  category: 2
+  allowedEquipLocation: 5
+  equipCondition:
+    and:
+    - or:
+      - predicate: MinimumTrait
+        parameters:
+        - Strength
+        - 6
+        negate: 0
+  animatorOverride: {fileID: 22100000, guid: d216dcc7fcdfaf74cb69729701c2a433, type: 2}
+  equippedPrefab: {fileID: 3566197527943612988, guid: 68bdf6f13b353c0448ec4705e2ed9915, type: 3}
+  isRightHanded: 1
+  weaponDamage: 20
+  weaponRange: 2
+  percentageBonus: 10
+  projectile: {fileID: 0}
