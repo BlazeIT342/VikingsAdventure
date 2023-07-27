@@ -1,2 +1,7 @@
-# VikingsAdventure
-RPG Game
+# VikingsAdventure (RPG Game)
+## Idea
+...........
+## About
+.....
+## Screenshots
+...
