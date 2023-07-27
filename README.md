@@ -29,5 +29,5 @@ You're **Ragnar**, a glorious viking who doesn't remember his past, but who want
 <img src = "Assets/Asset Packs/Screenshots/Shop.png"> </img>
 <img src = "Assets/Asset Packs/Screenshots/Map.png"> </img>
 <img src = "Assets/Asset Packs/Screenshots/Heal.png"> </img>
-<img src = "Assets/Asset Packs/Screenshots/Boss.png"> </img>
 <img src = "Assets/Asset Packs/Screenshots/Water.png"> </img>
+<img src = "Assets/Asset Packs/Screenshots/Boss.png"> </img>
