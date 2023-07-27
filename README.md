@@ -3,7 +3,7 @@
 The idea of the game contained using all skills which I have got during courses. The game has **Quest** and **Dialogue Systems**, **Inventory**, **Stat System** and many other interesting things.
 
 ## About
-_Here I would like to tell about the plot a bit._
+(_Here I would like to tell about the plot a bit._)
 
 Actions take place in **Xephalore** - great viking's country. People here was strong, but kind.
 
